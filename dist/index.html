@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="每日AI新闻聚合 - AI 新闻、研究论文与开源动态，支持搜索、分类和历史归档">
+  <meta name="keywords" content="AI新闻,人工智能,大模型,LLM,AI论文,GitHub热门,AI融资,每日AI动态">
+  <meta name="author" content="AI 资讯日报">
+  <meta property="og:title" content="AI 资讯日报 - 每日 AI 动态">
+  <meta property="og:description" content="AI 新闻、研究论文与开源动态，按日期归档">
+  <meta property="og:type" content="website">
+  <title>AI 资讯日报 | 每日 AI 动态</title>
+  <link rel="stylesheet" href="https://miaoda.feishu.cn/fonts/css2?family=Space+Grotesk:wght@400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ===== 顶部导航 ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1 class="brand-title" id="siteTitle">AI 资讯日报</h1>
+        <span class="brand-sub" id="siteSubtitle">每天一页，关注 AI 进展</span>
+      </div>
+      <div class="header-actions">
+        <button class="date-ticker" id="dateTicker" title="回到最新日期">
+          <span class="ticker-label">LATEST</span>
+          <span class="ticker-date" id="tickerDate">--</span>
+        </button>
+        <button class="theme-toggle" id="themeToggle" aria-label="切换深色/浅色模式">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="edition-notice"><div class="container"><span class="edition-badge">首版预览</span><span>当前展示参考站历史内容，尚未逐条核验。</span><span class="update-status">自动更新尚未启用</span></div></div>
+
+  <!-- ===== 日期选择栏 ===== -->
+  <nav class="date-nav">
+    <div class="container">
+      <div class="stats-bar" id="statsBar">
+        <!-- 统计信息由JS动态生成 -->
+      </div>
+      <div class="date-selector" id="dateSelector">
+        <!-- 日期按钮由JS动态生成 -->
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== 筛选栏 ===== -->
+  <section class="filter-bar">
+    <div class="container filter-inner">
+      <div class="search-box">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+        <input type="text" id="searchInput" placeholder="搜索新闻标题、标签、来源..." aria-label="搜索新闻">
+      </div>
+      <div class="category-filters" id="categoryFilters">
+        <!-- 分类筛选由JS动态生成 -->
+      </div>
+      <div class="heat-filter">
+        <span class="filter-label">热度</span>
+        <select id="heatFilter" aria-label="按热度筛选">
+          <option value="0">全部</option>
+          <option value="5">5星</option>
+          <option value="4">4星+</option>
+          <option value="3">3星+</option>
+        </select>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 主内容区 ===== -->
+  <main class="main-content">
+    <div class="container main-grid">
+      <!-- 新闻列表 -->
+      <div class="news-column">
+        <div class="column-header">
+          <h2 class="column-title" id="columnTitle">最新动态</h2>
+          <span class="item-count" id="itemCount" role="status" aria-live="polite">0 条</span>
+        </div>
+        <div class="active-filters" id="activeFilters" hidden></div>
+        <div class="news-list" id="newsList" aria-busy="true">
+          <!-- 新闻卡片由JS动态生成 -->
+        </div>
+        <div class="empty-state" id="emptyState" style="display:none;">
+          <p>没有找到匹配的新闻</p>
+          <button class="btn-secondary" id="clearFilters">清除筛选条件</button>
+        </div>
+      </div>
+
+      <!-- 侧边栏 -->
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar-section">
+          <h3 class="sidebar-title">分类统计</h3>
+          <div class="category-stats" id="categoryStats">
+            <!-- 由JS生成 -->
+          </div>
+        </div>
+        <div class="sidebar-section">
+          <h3 class="sidebar-title">热门标签</h3>
+          <div class="tag-cloud" id="tagCloud">
+            <!-- 由JS生成 -->
+          </div>
+        </div>
+        <div class="sidebar-section">
+          <h3 class="sidebar-title">历史归档</h3>
+          <div class="archive-list" id="archiveList">
+            <!-- 由JS生成 -->
+          </div>
+        </div>
+        <div class="sidebar-section about-section">
+          <h3 class="sidebar-title">关于</h3>
+          <p class="about-text">聚合 AI 新闻、研究论文与开源项目，支持按日期、分类、热度和关键词浏览。当前为功能复现版本，历史内容导入自参考站。</p>
+          <p class="about-meta">更新方式：手动发布 · 定时更新待配置</p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- ===== 移动端悬浮菜单 ===== -->
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+  <button class="fab-menu" id="fabMenu" aria-label="打开菜单" aria-expanded="false" aria-controls="sidebar">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <line x1="3" y1="6" x2="21" y2="6"/>
+      <line x1="3" y1="12" x2="21" y2="12"/>
+      <line x1="3" y1="18" x2="21" y2="18"/>
+    </svg>
+  </button>
+
+  <!-- ===== 页脚 ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p><span id="footerTitle">AI 资讯日报</span> &mdash; 基于 <a href="https://github.com/fuxin9257/ai-news-daily" target="_blank" rel="noopener noreferrer">fuxin9257 / AI News Daily</a> 复现 · 内容版权归原作者所有</p>
+    </div>
+  </footer>
+
+  <!-- ===== 数据脚本 ===== -->
+  <script src="js/site-config.js"></script>
+  <script src="data/manifest.js?v=20261103"></script>
+  <script src="js/app.js?v=20261103"></script>
+</body>
+</html>
