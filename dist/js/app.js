@@ -80,7 +80,8 @@
         return;
       }
       const script = document.createElement('script');
-      script.src = 'data/' + dateStr + '.js?v=20261103';
+      const version = window.NEWS_MANIFEST?.versions?.[dateStr] || window.NEWS_MANIFEST?.counts?.[dateStr] || '20261104';
+      script.src = 'data/' + dateStr + '.js?v=' + encodeURIComponent(version);
       script.onload = function() {
         if (window.NEWS_DATA && window.NEWS_DATA[dateStr]) {
           resolve(window.NEWS_DATA[dateStr]);

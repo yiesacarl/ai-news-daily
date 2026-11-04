@@ -30,14 +30,16 @@ export function validateDay(day) {
 export function rebuildManifest() {
   const dates = fs.readdirSync(directory).filter(name => /^\d{4}-\d{2}-\d{2}\.js$/.test(name)).map(name => name.slice(0, 10)).sort();
   const counts = {};
+  const versions = {};
   for (const date of dates) {
     const context = { window: {} };
     vm.runInNewContext(fs.readFileSync(path.join(directory, date + '.js'), 'utf8'), context, { timeout: 1000 });
     const day = context.window.NEWS_DATA?.[date];
     validateDay(day);
     counts[date] = day.items.length;
+    versions[date] = day.updated_at || day.generated_at || String(day.items.length);
   }
-  const manifest = { dates, latest: dates.at(-1) || null, counts };
+  const manifest = { dates, latest: dates.at(-1) || null, counts, versions };
   const target = path.join(directory, 'manifest.js');
   fs.writeFileSync(target + '.tmp', 'window.NEWS_MANIFEST = ' + JSON.stringify(manifest, null, 2) + ';\n');
   fs.renameSync(target + '.tmp', target);
