@@ -721,7 +721,6 @@
     const config = window.SITE_CONFIG || {};
     if (config.title) {
       document.getElementById('siteTitle').textContent = config.title;
-      document.getElementById('footerTitle').textContent = config.title;
       document.title = config.title + ' | 每日 AI 动态';
     }
     if (config.subtitle) document.getElementById('siteSubtitle').textContent = config.subtitle;
