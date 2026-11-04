@@ -173,33 +173,34 @@ window.NEWS_DATA['2026-11-04'] = {
       "edition": "morning"
     },
     {
-      "id": "2026-11-04-wuzhen",
+      "id": "2026-11-04-cisa",
       "date": "2026-11-04",
-      "title": "乌镇峰会开幕演讲提出缩小人工智能能力鸿沟",
-      "summary": "11 月 3 日乌镇峰会开幕，主旨演讲将人工智能治理与全球南方的数字基础设施、人才培养和能力建设联系起来。",
-      "detail": "原文发布日期为 2026-11-03。读取范围为署名评论正文及中国驻荷兰使馆会议消息。为什么值得关注？这提供了观察后续国际 AI 能力建设合作议题的政策线索。",
-      "url": "https://www.thepaper.cn/newsDetail_forward_34398574",
-      "source": "人民日报评论 / 澎湃新闻",
-      "category": "regulation",
+      "title": "CISA 为预训练模型改用分块稀疏注意力，无需重新训练",
+      "summary": "CISA 用键向量摘要选择需要读取的 KV 缓存块，并在相邻查询间复用部分选择结果。作者在百万 token 上下文的单层 GPU 基准中测得，计入分块打分和选择后，预填充及解码阶段的加速分别为 8.6 倍和 3.0 倍。",
+      "detail": "近期精选补充。原文于 2026 年 11 月 2 日提交 arXiv。读取范围为论文摘要、正文方法及单层性能基准说明。数字来自特定 BF16、批量大小为 32 的单层实验，端到端服务收益仍需验证。为什么值得关注？该方法可直接应用于已有密集注意力模型，并把稀疏索引的实际开销计入比较。",
+      "url": "https://arxiv.org/abs/2611.03200",
+      "source": "arXiv",
+      "category": "research_paper",
       "tags": [
-        "AI治理",
-        "乌镇峰会"
+        "长上下文",
+        "稀疏注意力",
+        "推理优化"
       ],
       "heat": 3,
-      "published_at": "2026-11-03",
-      "retrieved_at": "2026-11-04T00:45:18.160Z",
+      "published_at": "2026-11-02",
+      "retrieved_at": "2026-11-04T00:47:21.531Z",
       "edition": "morning"
     }
   ],
   "total_count": 10,
   "categories": {
     "opensource": 1,
-    "regulation": 2,
-    "research_paper": 4,
+    "regulation": 1,
+    "research_paper": 5,
     "funding": 2,
     "community_hot": 1
   },
-  "updated_at": "2026-11-04T00:45:18.160Z",
+  "updated_at": "2026-11-04T00:47:21.531Z",
   "editions": {
     "morning": {
       "item_ids": [
@@ -212,7 +213,7 @@ window.NEWS_DATA['2026-11-04'] = {
         "2026-11-04-corridian",
         "2026-11-04-itch-disclosure",
         "2026-11-04-claim-verification",
-        "2026-11-04-wuzhen"
+        "2026-11-04-cisa"
       ],
       "generated_at": "2026-11-04T00:45:18.160Z",
       "collection_window": {
