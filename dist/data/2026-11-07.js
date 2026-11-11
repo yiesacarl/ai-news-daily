@@ -1,0 +1,443 @@
+window.NEWS_DATA = window.NEWS_DATA || {};
+window.NEWS_DATA["2026-11-07"] = {
+  "date": "2026-11-07",
+  "generated_at": "2026-11-06T23:07:02Z",
+  "updated_at": "2026-11-07T11:04:11.941Z",
+  "collection_method": "independent_web_research",
+  "search_count": 73,
+  "editions": {
+    "morning": {
+      "item_ids": [
+        "biobasicsbench-wetlab",
+        "aurora-cancer-pioneer",
+        "meta-specialized-muse",
+        "sle-scientific-agents",
+        "protegrity-pii-release",
+        "uchicago-laude-weather",
+        "trickortreat-medical-vlm",
+        "vabar-robotics-benchmark",
+        "trustmix-distribution-shift",
+        "adobe-cx-coworker-integrations"
+      ],
+      "generated_at": "2026-11-06T23:07:02Z",
+      "collection_window": {
+        "start": "2026-11-03T23:03:58Z",
+        "end": "2026-11-06T23:03:58Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "search_count": 28
+    },
+    "evening": {
+      "item_ids": [
+        "ling-32-flash-release",
+        "lerobot-v070-release",
+        "anthropic-agent-memory-components",
+        "scientific-modeling-sbi-guide",
+        "ecological-foundation-model-roadmap",
+        "openai-hacktron-partnership",
+        "roboarcade-long-horizon-benchmark",
+        "energybench-live-forecasting",
+        "vials-aa-scientific-vision",
+        "platour-pact-check"
+      ],
+      "generated_at": "2026-11-07T11:03:01Z",
+      "collection_window": {
+        "start": "2026-11-04T11:03:01Z",
+        "end": "2026-11-07T11:03:01Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "search_count": 45
+    }
+  },
+  "items": [
+    {
+      "id": "biobasicsbench-wetlab",
+      "date": "2026-11-07",
+      "title": "BioBasicsBench 用原始实验数据检验智能体的湿实验判断",
+      "summary": "OpenAI 与 Ligo 推出包含 100 项任务的 BioBasicsBench，覆盖凝胶、显微图像、测序文件和实验记录。任务要求模型解释数据、发现错误，并在证据不足时保留结论。",
+      "detail": "原文发布日期为 2026-11-06。读取官方公告的任务设计、评分、结果和失败案例。七个模型共测试 37 种模型与推理设置，每设置每题尝试五次；成绩是评分细则下的平均得分。\n\n为什么值得关注？实验室里的原始材料往往包含模糊或冲突信息，这种评测更接近日常分析和排错过程。",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+      "source": "OpenAI",
+      "category": "research_paper",
+      "tags": [
+        "湿实验",
+        "科学评测",
+        "多模态"
+      ],
+      "heat": 5,
+      "published_at": "2026-11-06",
+      "retrieved_at": "2026-11-06T23:07:02Z",
+      "edition": "morning"
+    },
+    {
+      "id": "aurora-cancer-pioneer",
+      "date": "2026-11-07",
+      "title": "AURORA 选出三支癌症研究团队，开始检验 AI 科研伙伴",
+      "summary": "Cancer Grand Challenges 的 AURORA 项目将为三支团队提供合计 400 万美元，研究 AI 科研伙伴在 CAR-T、癌症起始和肿瘤免疫研究中的作用。",
+      "detail": "原文发布日期为 2026-11-06。读取哈佛医学院报道的项目设计、资助和验证安排，并与 Cancer Grand Challenges 发布稿交叉核验。11 月 5 日举办启动活动，11 月 6 日报道。此前核心模块的 600 万美元与本批 400 万美元分开记录，实验验证仍将开展。\n\n为什么值得关注？项目把 AI 生成的假设放回正在进行的实验中检验，可以观察建议能否转化成可靠研究结果。",
+      "url": "https://hms.harvard.edu/news/can-ai-co-scientist-accelerate-cancer-research",
+      "source": "Harvard Medical School",
+      "category": "research_paper",
+      "tags": [
+        "癌症研究",
+        "AI科研伙伴",
+        "实验验证"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-06",
+      "retrieved_at": "2026-11-06T23:07:02Z",
+      "edition": "morning"
+    },
+    {
+      "id": "meta-specialized-muse",
+      "date": "2026-11-07",
+      "title": "Meta 为 Muse 和 Meta AI 推出专门训练的模型",
+      "summary": "Meta 宣布将利用 Muse Wonder 训练的专门模型部署到 Muse 和 Meta AI，加入 Active Memory 和 Active Focus，尝试保留跨会话相关信息并帮助推进目标。",
+      "detail": "原文发布日期为 2026-11-06。读取 Meta 官方博客的发布、记忆和评估段落。内部记忆评估由旧模型 76% 升至新模型 90%，该数字来自 Meta 自定义任务。\n\n为什么值得关注？长期助手需要区分短期信息、稳定偏好和过期上下文，这类改进可用跨会话任务直接检验。",
+      "url": "https://research.meta.ai/blog/specialized-models-for-muse-and-metaai",
+      "source": "Meta AI Research",
+      "category": "product_release",
+      "tags": [
+        "长期记忆",
+        "个人助手",
+        "Meta AI"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-06",
+      "retrieved_at": "2026-11-06T23:07:02Z",
+      "edition": "morning"
+    },
+    {
+      "id": "sle-scientific-agents",
+      "date": "2026-11-07",
+      "title": "Science’s Last Exam 公布 113 项可执行科研任务",
+      "summary": "Science’s Last Exam 以真实研究材料和工具评估智能体，公开设计涵盖九个学科，强调提交可检查、可重新运行的研究产物，并以预先封存的检查规则验收。",
+      "detail": "原文发布日期为 2026-11-06。读取项目官网与博客的任务、评分和发布说明。博客列明 11 月 6 日发布，包含 113 项公开任务及一项端到端任务；湿实验执行仍在建设，未将其写成已完成评测。未在本次执行任务包。\n\n为什么值得关注？科研能力需要同时检查方法选择、计算执行与证据边界。任务包设计便于比较具体环节的失败。",
+      "url": "https://sciences-last-exam.org/blog",
+      "source": "Science’s Last Exam／AItonomy Foundation",
+      "category": "research_paper",
+      "tags": [
+        "科研智能体",
+        "可执行基准",
+        "科研复现"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-06",
+      "retrieved_at": "2026-11-06T23:07:02Z",
+      "edition": "morning"
+    },
+    {
+      "id": "protegrity-pii-release",
+      "date": "2026-11-07",
+      "title": "Protegrity 开放个人信息检测模型与 PII-SCOPE 基准",
+      "summary": "Protegrity 发布开放权重的 Protegrity-PII，识别 69 类个人信息，并提供 PII-SCOPE 基准与技术报告。模型卡包含权重、分词器和推理脚本的使用说明。",
+      "detail": "原文发布日期为 2026-11-05。近期精选补充。读取官方 11 月 5 日公告与 Hugging Face 模型卡，模型文件访问需要接受条件。PII-SCOPE 有 8030 条记录，模型优劣比较为发布方评测，未独立复现。\n\n为什么值得关注？检测敏感信息需要按具体实体类型与业务材料评测，公开测试集有助于对漏检和误检做独立比较。",
+      "url": "https://www.protegrity.com/news/protegrity-releases-open-weights-pii-detection-model-on-hugging-face-backed-by-new-benchmark-research",
+      "source": "Protegrity",
+      "category": "opensource",
+      "tags": [
+        "个人信息保护",
+        "开放权重",
+        "评测数据"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-05",
+      "retrieved_at": "2026-11-06T23:07:02Z",
+      "edition": "morning"
+    },
+    {
+      "id": "uchicago-laude-weather",
+      "date": "2026-11-07",
+      "title": "芝加哥大学获 1000 万美元资助，建设面向本地决策的 AI 天气平台",
+      "summary": "Laude Institute 为芝加哥大学团队提供 1000 万美元，支持 AI 天气模型和 AI Almanac 平台。项目将结合 AI 与物理预报，为不同地区的农业和公共卫生决策调整预报。",
+      "detail": "原文发布日期为 2026-11-05。近期精选补充。读取校方 11 月 5 日公告的资助、模型组合和平台计划。开放平台属于建设目标，已有农业预报部署与未来平台分别叙述，未把后续目标视为已交付功能。\n\n为什么值得关注？全球平均误差难以直接回答播种和热浪应对问题，按本地观测与实际决策评估更接近应用需求。",
+      "url": "https://cs-www.uchicago.edu/news/university-of-chicago-team-wins-10-million-laude-institute-grant-to-advance-ai-weather-forecasting-for-low-and-middle-income-economies/",
+      "source": "University of Chicago",
+      "category": "research_paper",
+      "tags": [
+        "天气预报",
+        "科研基础设施",
+        "农业"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-05",
+      "retrieved_at": "2026-11-06T23:07:02Z",
+      "edition": "morning"
+    },
+    {
+      "id": "trickortreat-medical-vlm",
+      "date": "2026-11-07",
+      "title": "Trick-or-Treat 用冲突的医学图像检查模型幻觉",
+      "summary": "研究者将真实胸片与合成临床照片配对，保持同一胸片而更换照片中的表现，测试多模态模型能否识别两个证据来源的不一致。",
+      "detail": "原文发布日期为 2026-11-04。近期精选补充。仅读取 arXiv v1 摘要与提交记录。三个前沿模型在不匹配图像对中出现有临床意义的照片幻觉比例为 45% 至 57.5%，同样照片单独展示时为 25% 至 37.5%。这是合成图像对抗测试结果，属于预印本报告。\n\n为什么值得关注？让证据发生受控冲突，可以发现模型为了统一诊断而错误解释图像的倾向。",
+      "url": "https://arxiv.org/abs/2611.06631",
+      "source": "arXiv／Trick-or-Treat 作者",
+      "category": "research_paper",
+      "tags": [
+        "医学多模态",
+        "幻觉评测",
+        "证据冲突"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-04T15:13:35Z",
+      "retrieved_at": "2026-11-06T23:07:02Z",
+      "edition": "morning"
+    },
+    {
+      "id": "vabar-robotics-benchmark",
+      "date": "2026-11-07",
+      "title": "VABAR 提供六类可重复的机器人操作基准",
+      "summary": "VABAR 将工业、医疗与基础设施场景中的变化操作任务纳入模拟评测，包括工具分拣、齿轮啮合、注射器装盒和线缆操作。",
+      "detail": "原文发布日期为 2026-11-04。近期精选补充。仅读取 arXiv v1 摘要及提交记录。基准以模拟为基础，设计目标包含可复现、物理可实现和计算效率。未在本次运行模拟或验证实体机器人效果。\n\n为什么值得关注？对象形状和位置变化是实际自动化的常见障碍，可重复的任务设计方便检查系统鲁棒性。",
+      "url": "https://arxiv.org/abs/2611.06881",
+      "source": "arXiv／VABAR 作者",
+      "category": "research_paper",
+      "tags": [
+        "机器人",
+        "操作基准",
+        "模拟评测"
+      ],
+      "heat": 3,
+      "published_at": "2026-11-04T18:38:01Z",
+      "retrieved_at": "2026-11-06T23:07:02Z",
+      "edition": "morning"
+    },
+    {
+      "id": "trustmix-distribution-shift",
+      "date": "2026-11-07",
+      "title": "TrustMix 在分布偏移时逐步转向可指定的保底预测",
+      "summary": "TrustMix 将预训练模型输出与用户指定的保底分布混合。当分布外信号增强时，预测逐步靠近保底分布，并可用于分类或回归。",
+      "detail": "原文发布日期为 2026-11-04。近期精选补充。仅读取 arXiv v1 摘要及提交记录。方法无需重新训练基础模型，作者在合成与真实偏移任务上报告似然或校准改善，未据此声称对任意分布偏移都有精度保证。\n\n为什么值得关注？显式指定外推行为有助于把领域假设写进模型使用流程，进而检查偏移条件下的不确定性。",
+      "url": "https://arxiv.org/abs/2611.07206",
+      "source": "arXiv／TrustMix 作者",
+      "category": "research_paper",
+      "tags": [
+        "分布偏移",
+        "不确定性",
+        "模型校准"
+      ],
+      "heat": 3,
+      "published_at": "2026-11-04T22:51:54Z",
+      "retrieved_at": "2026-11-06T23:07:02Z",
+      "edition": "morning"
+    },
+    {
+      "id": "adobe-cx-coworker-integrations",
+      "date": "2026-11-07",
+      "title": "Adobe 将客户体验智能体接入多家 AI 平台",
+      "summary": "Adobe 宣布 CX Enterprise Coworker 可在 ChatGPT、Claude、Databricks Genie、Gemini for business 和 Microsoft Copilot 中使用，同时增加连接企业营销与数据系统的预建接口。",
+      "detail": "原文发布日期为 2026-11-04。近期精选补充。读取 Adobe 11 月 4 日发布稿的可用平台、协议和连接器段落。采用 MCP 与 A2A 等标准，Amazon Quick、IBM 和 Snowflake 的平台内可用性仍属计划。未将宣传中的效率提升当作独立实测。\n\n为什么值得关注？企业智能体的实际用途取决于能否接入既有数据和动作权限，多平台集成使其工作范围更具体。",
+      "url": "https://news.adobe.com/news/2026/11/adobe-integrates-agentic-cx-enterprise-coworker-into-ai-platforms",
+      "source": "Adobe",
+      "category": "product_release",
+      "tags": [
+        "企业智能体",
+        "MCP",
+        "客户体验"
+      ],
+      "heat": 3,
+      "published_at": "2026-11-04",
+      "retrieved_at": "2026-11-06T23:07:02Z",
+      "edition": "morning"
+    },
+    {
+      "id": "ling-32-flash-release",
+      "date": "2026-11-07",
+      "title": "Ling-3.2-flash 上线百万上下文多模态接口",
+      "summary": "蚂蚁百灵官方更新记录列出 Ling-3.2-flash，模型规格为 560B 总参数、25B 激活参数和百万上下文窗口，支持文本、图像及视频输入，并提供兼容 OpenAI 与 Anthropic 协议的接口。",
+      "detail": "原文发布日期为 2026-11-05。近期精选补充。读取官方更新记录与模型规格页。参数和能力为发布方说明，本次未调用接口或独立测试。\n\n为什么值得关注？长上下文、多模态和协议兼容性影响现有应用的接入成本，可按具体业务材料检验效果。",
+      "url": "https://developer.ant-ling.com/zh-CN/docs/getting-started/changelog/",
+      "source": "蚂蚁百灵",
+      "category": "product_release",
+      "tags": [
+        "多模态",
+        "长上下文",
+        "模型接口"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-05",
+      "retrieved_at": "2026-11-07T11:03:01Z",
+      "edition": "evening"
+    },
+    {
+      "id": "lerobot-v070-release",
+      "date": "2026-11-07",
+      "title": "LeRobot 0.7.0 加入语言交互控制与远程推理",
+      "summary": "LeRobot 0.7.0 增加运行中切换子任务、视觉问答及自动引导接口，同时引入无需落盘的数据集流式读取和远程 GPU 推理服务，方便把机器人采集、训练与执行环节连接起来。",
+      "detail": "原文发布日期为 2026-11-05。近期精选补充。读取官方发布文章的交互执行、流式数据集和远程推理段落。视觉问答与自动引导需要具备文本生成能力的策略或外部视觉语言规划器，本次未运行代码或实体机器人。\n\n为什么值得关注？研究者可在执行过程中纠正任务，并把推理计算迁到远程设备，降低搭建机器人实验流程的工作量。",
+      "url": "https://huggingface.co/blog/lerobot/lerobot-release-v070",
+      "source": "Hugging Face／LeRobot",
+      "category": "opensource",
+      "tags": [
+        "机器人",
+        "LeRobot",
+        "远程推理"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-05",
+      "retrieved_at": "2026-11-07T11:03:01Z",
+      "edition": "evening"
+    },
+    {
+      "id": "anthropic-agent-memory-components",
+      "date": "2026-11-07",
+      "title": "Anthropic 拆解智能体记忆的存储与整理环节",
+      "summary": "Anthropic 研究智能体如何借助持久化笔记、日志和离线整理，在新会话中沿用已有经验。文章比较不同记忆组织方式，并讨论如何从任务记录中提炼可复用规则。",
+      "detail": "原文发布日期为 2026-11-06。读取研究文章的记忆组件、组织方式与 CL-Bench 实验说明。实验中的新会话通过共享目录保留记忆，结果受所用模型、任务与记忆配置约束，本次未复现。\n\n为什么值得关注？跨会话工作的效果取决于保存什么、如何检索与更新，这些环节可以分别评估，帮助定位记忆系统的失效原因。",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "source": "Anthropic",
+      "category": "research_paper",
+      "tags": [
+        "智能体记忆",
+        "持续学习",
+        "实验设计"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-06",
+      "retrieved_at": "2026-11-07T11:03:01Z",
+      "edition": "evening"
+    },
+    {
+      "id": "scientific-modeling-sbi-guide",
+      "date": "2026-11-07",
+      "title": "科学建模研究文章讨论如何约束 AI 的机制解释",
+      "summary": "图宾根大学与 ELLIS 研究者在 Anthropic 研究栏目讨论构建、约束和解释科学模型的流程，介绍用模拟与神经网络推断参数分布的方法，并强调结合观测检验模型解释。",
+      "detail": "原文发布日期为 2026-11-06。读取文章的建模流程与基于模拟的推断讨论。这是一篇科研方法精选，内容为作者的方法论分析，本次未执行模拟或复现推断流程。\n\n为什么值得关注？多个机制可能拟合同一组数据，显式处理不确定性与模型假设，有助于研究者判断 AI 给出的解释是否可检验。",
+      "url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models",
+      "source": "Anthropic／图宾根大学研究者",
+      "category": "research_paper",
+      "tags": [
+        "科学建模",
+        "模拟推断",
+        "不确定性"
+      ],
+      "heat": 3,
+      "published_at": "2026-11-06",
+      "retrieved_at": "2026-11-07T11:03:01Z",
+      "edition": "evening"
+    },
+    {
+      "id": "ecological-foundation-model-roadmap",
+      "date": "2026-11-07",
+      "title": "生态基础模型路线图提出连接基因、卫星与声学观测",
+      "summary": "研究团队在 Nature Machine Intelligence 观点文章中提出生态基础模型路线图，讨论整合遗传序列、卫星影像、声学记录与物种观测，并把生态理论、不确定性和数据治理纳入设计。",
+      "detail": "原文发布日期为 2026-11-06。读取牛津大学官方报道，并与伦敦玛丽女王大学参与团队报道交叉核验。期刊原文未能读取，内容为路线图提议，未将其描述为已完成模型或已有性能结果。\n\n为什么值得关注？生态数据分散在不同尺度和模态，统一建模的价值需要同时用生态合理性与实际保护决策来检验。",
+      "url": "https://www.biology.ox.ac.uk/node/5027171",
+      "source": "University of Oxford",
+      "category": "research_paper",
+      "tags": [
+        "生态学",
+        "基础模型",
+        "科学发现"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-06",
+      "retrieved_at": "2026-11-07T11:03:01Z",
+      "edition": "evening"
+    },
+    {
+      "id": "openai-hacktron-partnership",
+      "date": "2026-11-07",
+      "title": "OpenAI 与 Hacktron 扩大智能体跨服务安全测试",
+      "summary": "OpenAI 宣布与 Hacktron 合作，选择高优先级测试目标，重点检查第三方服务及其集成，并通过 Daybreak Red 扩大测试人员使用前沿模型的范围。",
+      "detail": "原文发布日期为 2026-11-06。读取 OpenAI 官方合作公告。公告描述合作范围与访问安排，本次未独立验证测试成效，文中没有可据以比较的漏洞发现数量。\n\n为什么值得关注？智能体执行任务时会跨越多个服务和权限边界，联合测试可帮助发现单个平台内测试难以覆盖的连接风险。",
+      "url": "https://openai.com/index/partnering-with-hacktron/",
+      "source": "OpenAI",
+      "category": "funding",
+      "tags": [
+        "智能体安全",
+        "安全测试",
+        "服务集成"
+      ],
+      "heat": 3,
+      "published_at": "2026-11-06",
+      "retrieved_at": "2026-11-07T11:03:01Z",
+      "edition": "evening"
+    },
+    {
+      "id": "roboarcade-long-horizon-benchmark",
+      "date": "2026-11-07",
+      "title": "RoboARCade 用三种机器人形态测试长程操作",
+      "summary": "RoboARCade 提出基于 MuJoCo 的长程操作基准，覆盖三种机器人形态，并通过可替换接口与任务数据包测试视觉语言智能体。作者同时检查任务执行与模型自报成功之间的差异。",
+      "detail": "原文首次提交时间为 2026-11-05T16:00:16Z。近期精选补充。仅读取 arXiv 摘要与提交记录。内容为预印本作者报告，本次未读取全文或运行 MuJoCo 任务。\n\n为什么值得关注？操作评测需要追踪实际完成状态，成功自报与环境结果的差距会影响机器人系统的可靠性判断。",
+      "url": "https://arxiv.org/abs/2611.08209",
+      "source": "arXiv／RoboARCade 作者",
+      "category": "research_paper",
+      "tags": [
+        "机器人",
+        "长程任务",
+        "评测"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-05T16:00:16Z",
+      "retrieved_at": "2026-11-07T11:03:01Z",
+      "edition": "evening"
+    },
+    {
+      "id": "energybench-live-forecasting",
+      "date": "2026-11-07",
+      "title": "EnergyBench 以实时数据检验能源预测模型",
+      "summary": "EnergyBench 建立持续更新的能源预测基准，覆盖六个欧洲电力竞价区的电价、风电、光伏和负荷，按 15 分钟粒度预测。任务在每日拍卖截止前冻结可用输入，减少事后信息混入。",
+      "detail": "原文首次提交时间为 2026-11-05T10:26:36Z。近期精选补充。读取 arXiv 摘要及 HTML 正文的任务设计、信息截止规则与输入设置。每日 11:30 CET/CEST 冻结信息，距拍卖截止 30 分钟。本次未运行基准，结果仍需在后续时段持续检验。\n\n为什么值得关注？实时冻结输入与持续评测能暴露固定历史测试集难以发现的问题，也便于比较相同信息条件下的模型表现。",
+      "url": "https://arxiv.org/abs/2611.07784",
+      "source": "arXiv／EnergyBench 作者",
+      "category": "research_paper",
+      "tags": [
+        "能源预测",
+        "实时评测",
+        "数据泄漏"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-05T10:26:36Z",
+      "retrieved_at": "2026-11-07T11:03:01Z",
+      "edition": "evening"
+    },
+    {
+      "id": "vials-aa-scientific-vision",
+      "date": "2026-11-07",
+      "title": "VIALS-AA 用三次重复运行检验科研图像分析稳定性",
+      "summary": "Artificial Analysis 推出包含 161 项任务的 VIALS-AA，结合科研图像检查与代码执行。每项任务运行三次，以三次均正确的 pass^3 指标衡量可靠完成能力，并公开任务示例和执行轨迹。",
+      "detail": "原文发布日期为 2026-11-06。读取发布文章的任务概述、评分规则、成本定义与凝胶图像示例。评测使用开源 Stirrup 框架，pass^3 要求三次全对。本次未独立重跑任务。\n\n为什么值得关注？科研分析常需稳定重复执行，连续三次成功的要求有助于区分偶然答对与可重复完成。",
+      "url": "https://artificialanalysis.ai/articles/vials-aa",
+      "source": "Artificial Analysis",
+      "category": "research_paper",
+      "tags": [
+        "科研图像",
+        "可靠性",
+        "可重复评测"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-06",
+      "retrieved_at": "2026-11-07T11:03:01Z",
+      "edition": "evening"
+    },
+    {
+      "id": "platour-pact-check",
+      "date": "2026-11-07",
+      "title": "PLatour 提出对照检查，区分模型通信与桥接训练收益",
+      "summary": "PLatour 研究用可训练线性桥接层连接冻结的大模型与较小模型。作者报告，在受控实验中，无信息信号、自通信或仅接收端训练也能重现部分收益，并提出 PACT-Check 检查通信贡献。",
+      "detail": "原文首次提交时间为 2026-11-04T13:33:47Z。近期精选补充。仅读取 arXiv 摘要与提交记录，内容为预印本作者的受控实验报告。本次未读取全文、检查实现或复现实验。\n\n为什么值得关注？跨模型协作的提升可能来自适配环节，设置相应对照有助于判断新增通信机制究竟贡献了什么。",
+      "url": "https://arxiv.org/abs/2611.06976",
+      "source": "arXiv／PLatour 作者",
+      "category": "research_paper",
+      "tags": [
+        "模型协作",
+        "对照实验",
+        "可复现研究"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-04T13:33:47Z",
+      "retrieved_at": "2026-11-07T11:03:01Z",
+      "edition": "evening"
+    }
+  ],
+  "total_count": 20,
+  "categories": {
+    "product_release": 3,
+    "research_paper": 14,
+    "opensource": 2,
+    "funding": 1,
+    "regulation": 0,
+    "community_hot": 0
+  }
+};

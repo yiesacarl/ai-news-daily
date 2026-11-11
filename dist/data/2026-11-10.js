@@ -1,0 +1,443 @@
+window.NEWS_DATA = window.NEWS_DATA || {};
+window.NEWS_DATA["2026-11-10"] = {
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T11:02:33Z",
+  "updated_at": "2026-11-10T11:02:51.398Z",
+  "collection_method": "independent_web_research",
+  "search_count": 104,
+  "editions": {
+    "morning": {
+      "item_ids": [
+        "claude-fable-mythos52",
+        "google-tpu8tx-8imax",
+        "maxtext-context-parallelism",
+        "maps-aistudio-integration",
+        "nominal-seriesc-240m",
+        "geniosai-funding191m",
+        "claude-max-subscription-ruling",
+        "arxiv-audir-2611-12478",
+        "arxiv-autobuddy-2611-12393",
+        "arxiv-shadow-ai-detector-2611-12377"
+      ],
+      "generated_at": "2026-11-10T11:02:33Z",
+      "collection_window": {
+        "start": "2026-11-06T23:05:23Z",
+        "end": "2026-11-10T11:02:33Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "search_count": 69
+    },
+    "evening": {
+      "item_ids": [
+        "meta-muse-ember-20261109",
+        "robbyant-lingbot-touch-20261110",
+        "australia-ai-incident-review-20261110",
+        "statnett-datacenter-reservations-20261109",
+        "google-cloud-pathways-ga-20261109",
+        "google-tpu-sync-release-20261109",
+        "arxiv-sage-taiyi-2611-12762",
+        "arxiv-trialdesignbench-2611-12640",
+        "arxiv-maxim-2611-12825",
+        "arxiv-pace-ecg-2611-12307"
+      ],
+      "generated_at": "2026-11-10T11:02:33Z",
+      "collection_window": {
+        "start": "2026-11-07T11:00:00Z",
+        "end": "2026-11-10T11:02:33Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "search_count": 35
+    }
+  },
+  "items": [
+    {
+      "id": "claude-fable-mythos52",
+      "date": "2026-11-10",
+      "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2",
+      "summary": "Anthropic 更新 Fable 与 Mythos，公布编程、推理和视觉等评测结果。两者使用相同底层模型，Fable 带有更严格的网络安全与生物安全防护，Mythos 面向经验证的专业用途。",
+      "detail": "原文发布日期为 2026-11-09。读取官方公告的模型区别、评测条件、价格与安全说明。输入和输出价格分别为每百万 token 8 美元与 40 美元，快模式另行定价；性能数字来自 Anthropic 测试，未独立复现。\n\n为什么值得关注？可用范围、推理设置与价格一起变化，开发者可据此重新测试高难任务的效果和成本。",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "source": "Anthropic",
+      "category": "product_release",
+      "tags": [
+        "模型发布",
+        "编程",
+        "科研工具"
+      ],
+      "heat": 5,
+      "published_at": "2026-11-09",
+      "retrieved_at": "2026-11-09T23:09:33Z",
+      "edition": "morning"
+    },
+    {
+      "id": "google-tpu8tx-8imax",
+      "date": "2026-11-10",
+      "title": "Google 推出 TPU 8tx 与 TPU 8i Max 系统",
+      "summary": "Google 扩展第八代 TPU 系统阵容。8tx 侧重敏感数据与模型在处理过程中的保护，8i Max 面向大上下文窗口和更高机架计算密度。",
+      "detail": "原文发布日期为 2026-11-09。读取 Google 原始 11 月 9 日公告的系统定位及硬件说明，并与 Google Cloud 技术说明核对。Cloud 转载日期为 11 月 10 日，未将其当作首发日期。本次为新系统配置发布，不据此推定使用了全新芯片。\n\n为什么值得关注？硬件系统对内存、互联与安全的不同配置，影响长上下文和受监管工作负载的部署选择。",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+      "source": "Google",
+      "category": "product_release",
+      "tags": [
+        "TPU",
+        "机密计算",
+        "长上下文"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-09",
+      "retrieved_at": "2026-11-09T23:09:33Z",
+      "edition": "morning"
+    },
+    {
+      "id": "maxtext-context-parallelism",
+      "date": "2026-11-10",
+      "title": "MaxText 加入四种 TPU 上下文并行训练策略",
+      "summary": "Google 宣布 MaxText 支持 All-gather、Ulysses、Ring Attention 及混合策略，结合负载均衡与序列打包，让单条长序列分布在多个 TPU 芯片上训练。",
+      "detail": "原文发布日期为 2026-11-09。读取官方技术公告的策略、测试条件、可用版本与原仓库说明。64 芯片 TPU 7 上的 Llama 3.1 8B 测试在 1400 万 token 长度达到 48.7% MFU，为厂商所述特定配置结果。未执行训练或复现。\n\n为什么值得关注？公开配置与开源实现让训练团队能按硬件、序列长度和显存约束比较通信与计算开销。",
+      "url": "https://developers.googleblog.com/announcing-long-context-training-on-tpus-with-maxtext-context-parallelism/",
+      "source": "Google Developers Blog",
+      "category": "opensource",
+      "tags": [
+        "MaxText",
+        "分布式训练",
+        "TPU"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-09",
+      "retrieved_at": "2026-11-09T23:09:33Z",
+      "edition": "morning"
+    },
+    {
+      "id": "maps-aistudio-integration",
+      "date": "2026-11-10",
+      "title": "Google Maps Platform 接入 AI Studio 的应用构建流程",
+      "summary": "开发者现可在 Google AI Studio 中构建地图应用，使用地点、路线、三维视图等能力。官方提供每日免费测试额度，生产部署或更高配额需要连接计费账号。",
+      "detail": "原文发布日期为 2026-11-09。读取 Google Developers 官方公告的接入、配额与生产说明。免费试用有每日限额，生产适用 Google Maps Platform 标准价格。未实际注册、连接计费或调用接口。\n\n为什么值得关注？地图配置与应用生成放在同一工作流程中，可缩短原型验证，同时保留明确的配额和生产费用边界。",
+      "url": "https://developers.googleblog.com/from-prompt-to-app-build-with-google-maps-in-ai-studio/",
+      "source": "Google Developers Blog",
+      "category": "product_release",
+      "tags": [
+        "地图应用",
+        "AI Studio",
+        "开发工具"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-09",
+      "retrieved_at": "2026-11-09T23:09:33Z",
+      "edition": "morning"
+    },
+    {
+      "id": "nominal-seriesc-240m",
+      "date": "2026-11-10",
+      "title": "Nominal 获 2.4 亿美元 C 轮，发展硬件工程智能平台",
+      "summary": "Nominal 宣布按 30 亿美元估值完成 2.4 亿美元 C 轮融资，由 Lightspeed 领投、Insight 联合领投，计划扩展工程产品、智能体和市场。",
+      "detail": "原文发布日期为 2026-11-09。读取 Nominal 官方融资公告的金额、投资方和用途段落。智能体覆盖需求验证、规划、调度与机队健康等方向属于公司开发计划，未作为已验证性能引用。\n\n为什么值得关注？硬件开发需要把试验数据、验证与机器运行记录连起来，融资用途指向更完整的工程工作流。",
+      "url": "https://nominal.io/blog/series-c-news",
+      "source": "Nominal",
+      "category": "funding",
+      "tags": [
+        "硬件工程",
+        "融资",
+        "工程智能体"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-09",
+      "retrieved_at": "2026-11-09T23:09:33Z",
+      "edition": "morning"
+    },
+    {
+      "id": "geniosai-funding191m",
+      "date": "2026-11-10",
+      "title": "geniosAI 披露 1910 万美元融资，面向可追溯金融分析",
+      "summary": "geniosAI 宣布种子轮与 A 轮合计融资 1910 万美元，参与方包括 FactSet、Zoom 和 General Catalyst，A 轮由 FactSet 领投。平台面向金融机构和财务团队。",
+      "detail": "原文发布日期为 2026-11-09。读取 11 月 9 日 Business Wire 发布稿在 01net 的完整转载。金额是两轮合计，未称其全部来自单次 A 轮；平台的可追溯能力为公司产品说明，未独立测试。\n\n为什么值得关注？将数据来源、计算假设和审阅决定与分析结果一起保留，是金融工作流审查 AI 输出的重要条件。",
+      "url": "https://www.01net.it/geniosai-emerges-from-stealth-with-19-1m-in-funding-to-give-financial-institutions-analysis-they-can-trace-defend-and-build-on/",
+      "source": "geniosAI／Business Wire（经 01net 发布）",
+      "category": "funding",
+      "tags": [
+        "金融分析",
+        "融资",
+        "证据追溯"
+      ],
+      "heat": 3,
+      "published_at": "2026-11-09",
+      "retrieved_at": "2026-11-09T23:09:33Z",
+      "edition": "morning"
+    },
+    {
+      "id": "claude-max-subscription-ruling",
+      "date": "2026-11-10",
+      "title": "Claude Max 用量宣传诉讼部分请求获准继续审理",
+      "summary": "美国加州联邦法院对 Anthropic 的撤诉申请作出部分支持、部分驳回决定。争议涉及消费者如何理解 Claude Max 的五倍或二十倍用量宣传，部分请求获准进入后续程序。",
+      "detail": "原文发布日期为 2026-11-09。路透社原文发表于 2026-11-09，裁定日期为 2026-11-06，两者区分记录。读取路透社报道与所链接裁定的相关分析、结论。法院允许部分请求继续、其他请求可修订，案件仍处早期程序，责任认定有待后续审理。\n\n为什么值得关注？订阅产品的会话额度与更长周期限制如何展示，会影响用户对价格和可用量的理解。",
+      "url": "https://www.reuters.com/legal/government/anthropic-must-face-lawsuit-over-claude-subscription-marketing-2026-11-09/",
+      "source": "Reuters／美国加州北区联邦法院",
+      "category": "regulation",
+      "tags": [
+        "订阅服务",
+        "消费者权益",
+        "诉讼进展"
+      ],
+      "heat": 3,
+      "published_at": "2026-11-09T16:24:00Z",
+      "retrieved_at": "2026-11-09T23:09:33Z",
+      "edition": "morning"
+    },
+    {
+      "id": "arxiv-audir-2611-12478",
+      "date": "2026-11-10",
+      "title": "AuDiR 以规则与声学观察对照拆解音频推理错误",
+      "summary": "AuDiR 收集来自九个来源、十八类任务的 201 个音频推理题，为每题配套规则文本和声学观察。研究通过补充规则、补充观察及移除音频等对照，分析模型错误与感知信息、规则使用之间的关系。",
+      "detail": "本次晚间补齐早报缺额。原文 v1 提交于 2026-11-09 14:23:38 UTC。已读取 arXiv v1 摘要与提交记录，未阅读全文或独立复现。作者注明验证尚不完整，可能存在识别捷径及非单调变化，诊断结果仍属初步。\n\n为什么值得关注？把可提供的信息分步控制，比只看最终准确率更有利于研究音频推理的瓶颈。",
+      "url": "https://arxiv.org/abs/2611.12478",
+      "source": "arXiv",
+      "category": "research_paper",
+      "tags": [
+        "音频AI",
+        "推理评测",
+        "多模态"
+      ],
+      "heat": 3,
+      "published_at": "2026-11-09T14:23:38Z",
+      "retrieved_at": "2026-11-10T11:02:33Z",
+      "edition": "morning"
+    },
+    {
+      "id": "arxiv-autobuddy-2611-12393",
+      "date": "2026-11-10",
+      "title": "AutoBuddy 用模拟组织评测主动发现与执行工作义务",
+      "summary": "AutoBuddy 在含邮件、聊天及文档的模拟组织中，要求智能体主动识别待办义务，并执行能被世界状态验证的操作。研究以时间图描述组织信息，分别衡量发现与执行，报告两阶段能力之间的相关性较弱。",
+      "detail": "本次晚间补齐早报缺额。原文 v1 提交于 2026-11-09 13:30:18 UTC。已读取 arXiv v1 摘要与提交记录，未阅读全文或独立复现。实验环境为模拟组织，结果来自作者报告。\n\n为什么值得关注？主动办公助手需要同时判断哪些事该做、完成后是否真正改变状态，这类评测将两个瓶颈分开观察。",
+      "url": "https://arxiv.org/abs/2611.12393",
+      "source": "arXiv",
+      "category": "research_paper",
+      "tags": [
+        "办公智能体",
+        "主动助手",
+        "基准"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-09T13:30:18Z",
+      "retrieved_at": "2026-11-10T11:02:33Z",
+      "edition": "morning"
+    },
+    {
+      "id": "arxiv-shadow-ai-detector-2611-12377",
+      "date": "2026-11-10",
+      "title": "Shadow AI 研究提出 Windows 智能体排查工具与受控实验",
+      "summary": "论文介绍 Windows Agent Detector，通过服务身份、配置与安装痕迹等信号排查企业终端中的 AI 组件，并整理 39 种工具及 184 个模型端点。作者使用合成智能体、AI 组件和良性工作负载进行受控测试。",
+      "detail": "本次晚间补齐早报缺额。原文 v1 提交于 2026-11-09 13:19:45 UTC。已读取 arXiv v1 摘要与提交记录，未阅读全文或独立复现。实验仅在一台工作站上进行，包含 12 个合成智能体、3 个 AI 组件及 9 个良性负载，每组重复五次，外推范围有限。\n\n为什么值得关注？终端上的 AI 工具可见性影响资产管理与数据治理，该研究给出可检查的检测信号及其时间窗口限制。",
+      "url": "https://arxiv.org/abs/2611.12377",
+      "source": "arXiv",
+      "category": "research_paper",
+      "tags": [
+        "终端安全",
+        "影子AI",
+        "企业治理"
+      ],
+      "heat": 3,
+      "published_at": "2026-11-09T13:19:45Z",
+      "retrieved_at": "2026-11-10T11:02:33Z",
+      "edition": "morning"
+    },
+    {
+      "id": "meta-muse-ember-20261109",
+      "date": "2026-11-10",
+      "title": "Meta 发布 Muse Ember，面向高频智能体执行任务",
+      "summary": "Meta 推出小型多模态模型 Muse Ember，支持文本、图像、音频和视频输入，提供 100 万 token 上下文及最高 51.2 万 token 输出。模型已通过 Meta Model API 与 Muse Code 提供，重点覆盖工具调用、文档处理和重复编码任务。",
+      "detail": "原文发布于 2026-11-09。已读取官方公告的任务定位、上下文、可用性及评测说明，性能对比来自发布方和其引用的评测，未调用模型实测。\n\n为什么值得关注？把规划与大量执行步骤分别交给适合的模型，为高频智能体工作流提供新的成本与延迟选择。",
+      "url": "https://research.meta.ai/blog/muse-ember",
+      "source": "Meta",
+      "category": "product_release",
+      "tags": [
+        "多模态模型",
+        "智能体",
+        "开发工具"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-09",
+      "retrieved_at": "2026-11-10T11:02:33Z",
+      "edition": "evening"
+    },
+    {
+      "id": "robbyant-lingbot-touch-20261110",
+      "date": "2026-11-10",
+      "title": "蚂蚁灵波开放 LingBot-Touch，统一三类机器人触觉信号",
+      "summary": "Robbyant 发布 LingBot-Touch，将磁式、视触觉及压阻式传感信号映射为统一触觉表示。项目提供推理代码与 Tiny、Small 模型获取入口，采用接近 5000 小时触觉数据预训练，并在两种灵巧手的 26 项真实任务中评估。",
+      "detail": "公司公告发布于 2026-11-10 09:23 UTC，代码在 11 月 9 日已出现。已读取原仓库 README、官方技术页与公司 Business Wire 公告全文。模型下载需按项目要求获得访问授权，未运行代码或复现实机实验。公告 https://www.businesswire.com/news/home/20261109284905/en/ 。\n\n为什么值得关注？跨传感器复用触觉表示，有望减少更换灵巧手或动作策略时重复开发感知模块的工作。",
+      "url": "https://github.com/Robbyant/lingbot-touch",
+      "source": "Robbyant",
+      "category": "opensource",
+      "tags": [
+        "机器人",
+        "触觉",
+        "具身智能"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-10T09:23:00Z",
+      "retrieved_at": "2026-11-10T11:02:33Z",
+      "edition": "evening"
+    },
+    {
+      "id": "australia-ai-incident-review-20261110",
+      "date": "2026-11-10",
+      "title": "澳大利亚接受 18 项 AI 事件审查建议，推进强制报告机制",
+      "summary": "澳大利亚政府公布 AI 驱动网络事件快速审查的 18 项建议，并宣布全部接受、开始实施。重点包括 AI 公司对失准行为及网络事件的报告、研究严重失当行为的刑法改革、跨国协作，以及提升政府系统的响应与信息共享能力。",
+      "detail": "原文发布于 2026-11-10。已读取总理府公告正文，并交叉读取 The Guardian 当日报道正文。本文记录政府接受建议与推进政策的进展，具体义务仍取决于后续立法和实施文件。交叉来源 https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack 。\n\n为什么值得关注？智能体安全治理正在延伸到事件披露时限、开发者责任和政府应急能力，影响前沿模型在当地的运营要求。",
+      "url": "https://www.pm.gov.au/media/strengthening-australia-against-ai-driven-cyber-incidents",
+      "source": "澳大利亚总理府",
+      "category": "regulation",
+      "tags": [
+        "AI治理",
+        "事件报告",
+        "网络安全"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-10",
+      "retrieved_at": "2026-11-10T11:02:33Z",
+      "edition": "evening"
+    },
+    {
+      "id": "statnett-datacenter-reservations-20261109",
+      "date": "2026-11-10",
+      "title": "挪威 Statnett 暂停新增数据中心电网容量预留",
+      "summary": "Statnett 宣布暂停新增数据中心接入容量预留及部分设施功能审批，原因包括大规模快速负荷变化对系统稳定性的影响。运营商预计最迟于 2027 年 8 月 1 日解除暂停，并将制定新的功能要求、提交监管机构审批。",
+      "detail": "近期精选补充，原文发布于 2026-11-09 08:45（挪威当地时间）。已读取运营商公告的措施、例外与功能要求部分。已获必要功能批准的项目仍可接入，区域电网部分近期项目及小型设施有例外安排。\n\n为什么值得关注？AI 算力扩张的工程约束进一步涉及负荷变化速度、扰动响应和并网规范，可能影响数据中心项目排期。",
+      "url": "https://www.statnett.no/om-statnett/nyheter-og-pressemeldinger/nyhetsarkiv-2026/midlertidige-tiltak-for-fortsatt-forsvarlig-systemdrift/",
+      "source": "Statnett",
+      "category": "funding",
+      "tags": [
+        "数据中心",
+        "电网",
+        "算力基础设施"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-09T08:45:00+01:00",
+      "retrieved_at": "2026-11-10T11:02:33Z",
+      "edition": "evening"
+    },
+    {
+      "id": "google-cloud-pathways-ga-20261109",
+      "date": "2026-11-10",
+      "title": "Cloud Pathways 正式可用，以单控制器调度多 TPU 切片",
+      "summary": "Google Cloud 宣布分布式机器学习运行时 Cloud Pathways 在 GKE 上正式可用。开发者可由单个 Python 控制器编排多个 TPU 切片，通过 IFRT 分离控制与执行，并支持交互式开发和故障恢复。与 Cluster Director 的 Slurm 集成处于预览阶段。",
+      "detail": "原文发布于 2026-11-09。已读取官方公告的架构、支持环境、正式可用范围和 Slurm 预览说明，未部署集群或验证吞吐。\n\n为什么值得关注？把跨切片训练的控制逻辑集中到熟悉的 Python 环境，有助于降低大规模 TPU 作业的编排复杂度。",
+      "url": "https://cloud.google.com/blog/topics/ai-infrastructure/cloud-pathways-a-distributed-ml-runtime-is-ga",
+      "source": "Google Cloud",
+      "category": "product_release",
+      "tags": [
+        "分布式训练",
+        "TPU",
+        "机器学习系统"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-09",
+      "retrieved_at": "2026-11-10T11:02:33Z",
+      "edition": "evening"
+    },
+    {
+      "id": "google-tpu-sync-release-20261109",
+      "date": "2026-11-10",
+      "title": "Google 开源 TPU Sync，异步搬运 KV 缓存与模型权重",
+      "summary": "TPU Sync 以原生 C++ 与异步 DMA，在 TPU 高带宽内存、主机内存和跨主机网络间传输保持原生布局的张量。它面向前缀缓存及预填充、解码分离服务，并提供强化学习训练器向采样器同步权重的底层传输能力。",
+      "detail": "原文发布于 2026-11-09。已读取官方公告的传输架构、缓存分层及使用场景。共享二级存储分层和强化学习模块标为实验性，未运行项目或复核性能数据。\n\n为什么值得关注？长上下文服务和强化学习常被状态搬运拖慢，开放底层传输组件让框架开发者有机会复用和检验这部分优化。",
+      "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu",
+      "source": "Google Cloud",
+      "category": "opensource",
+      "tags": [
+        "开源工具",
+        "KV缓存",
+        "TPU"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-09",
+      "retrieved_at": "2026-11-10T11:02:33Z",
+      "edition": "evening"
+    },
+    {
+      "id": "arxiv-sage-taiyi-2611-12762",
+      "date": "2026-11-10",
+      "title": "Sage 提出科学智能体元认知架构，TaiyiBench 覆盖十个学科",
+      "summary": "论文提出 Sage 架构，持续记录证据、假设与未解决问题，并据此调整科研目标和复用推理。作者构建含 265 项任务、源自 50 篇论文的 TaiyiBench，报告总分为 54.0，对照 AI Scientist-v2 为 47.9，另展示五项专家指导的实验与计算协作。",
+      "detail": "原文 v1 提交于 2026-11-09 17:38:05 UTC。已读取 arXiv v1 摘要与提交记录，未阅读全文或独立复现。上述结果为作者在其基准与专家参与条件下的报告。\n\n为什么值得关注？评价科学智能体时，研究目标如何更新、证据如何积累，开始与单次问题解答能力一起进入测试。",
+      "url": "https://arxiv.org/abs/2611.12762",
+      "source": "arXiv",
+      "category": "research_paper",
+      "tags": [
+        "科学智能体",
+        "科学发现",
+        "科研评测"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-09T17:38:05Z",
+      "retrieved_at": "2026-11-10T11:02:33Z",
+      "edition": "evening"
+    },
+    {
+      "id": "arxiv-trialdesignbench-2611-12640",
+      "date": "2026-11-10",
+      "title": "TrialDesignBench 以 617 项肿瘤试验检验剂量设计推理",
+      "summary": "研究将 617 项肿瘤 I 期及 I/II 期剂量探索试验整理为带专家核验参考设计的基准，评估五种前沿语言模型。摘要报告这些模型均未达到参考设计质量，并分别分析未写入记录的潜在决策因素与结构化决策树推理的影响。",
+      "detail": "原文 v1 提交于 2026-11-09 16:15:57 UTC。已读取 arXiv v1 摘要与提交记录，未阅读全文或独立复现。评价范围是回顾性试验设计基准，结果不能直接转化为临床用药或试验实施建议。\n\n为什么值得关注？把专业设计流程和判断依据纳入评测，有助于定位语言模型在临床研究辅助中的具体能力缺口。",
+      "url": "https://arxiv.org/abs/2611.12640",
+      "source": "arXiv",
+      "category": "research_paper",
+      "tags": [
+        "AI医疗研究",
+        "临床试验",
+        "科研评测"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-09T16:15:57Z",
+      "retrieved_at": "2026-11-10T11:02:33Z",
+      "edition": "evening"
+    },
+    {
+      "id": "arxiv-maxim-2611-12825",
+      "date": "2026-11-10",
+      "title": "MaxIM 用信息论奖励训练长期记忆压缩",
+      "summary": "MaxIM 面向有限 token 预算下的长历史交互，训练可递归更新的记忆摘要。其奖励同时考虑对未来任务相关目标的预测能力、与历史的对应关系和递归一致性，作者在长程科学阅读及多轮对话任务中报告改进。",
+      "detail": "原文 v1 提交于 2026-11-09 18:25:42 UTC。已读取 arXiv v1 摘要与提交记录，未阅读全文或独立复现。效果来自作者在指定任务和严格记忆预算下的实验。\n\n为什么值得关注？长期智能体需要保留未来有用的信息，训练目标能否指导取舍，是比单纯扩大上下文更细化的研究问题。",
+      "url": "https://arxiv.org/abs/2611.12825",
+      "source": "arXiv",
+      "category": "research_paper",
+      "tags": [
+        "智能体记忆",
+        "强化学习",
+        "长上下文"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-09T18:25:42Z",
+      "retrieved_at": "2026-11-10T11:02:33Z",
+      "edition": "evening"
+    },
+    {
+      "id": "arxiv-pace-ecg-2611-12307",
+      "date": "2026-11-10",
+      "title": "PACE 结合纵向心电对比学习与临床监督，测试跨队列风险表征",
+      "summary": "论文提出 PACE，将同一患者时间相近的心电图用于对比预训练，并结合临床多任务监督。作者冻结编码器后，在 MIMIC-IV 及波士顿、亚特兰大外部队列测试心肌梗死后的全因死亡和新发心衰预测，并与自监督基线比较。",
+      "detail": "原文 v1 提交于 2026-11-09 12:27:36 UTC。已读取 arXiv v1 摘要与提交记录，未阅读全文或独立复现。结果属于指定回顾性队列的风险预测实验，本文未核验临床部署效果。\n\n为什么值得关注？同一患者的纵向记录可能补充单张心电图学习，外部队列验证也让表征的迁移能力成为研究重点。",
+      "url": "https://arxiv.org/abs/2611.12307",
+      "source": "arXiv",
+      "category": "research_paper",
+      "tags": [
+        "科学研究",
+        "心电图",
+        "医学AI"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-09T12:27:36Z",
+      "retrieved_at": "2026-11-10T11:02:33Z",
+      "edition": "evening"
+    }
+  ],
+  "total_count": 20,
+  "categories": {
+    "product_release": 5,
+    "research_paper": 7,
+    "opensource": 3,
+    "funding": 3,
+    "regulation": 2,
+    "community_hot": 0
+  }
+};

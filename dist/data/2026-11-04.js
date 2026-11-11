@@ -1,206 +1,10 @@
 window.NEWS_DATA = window.NEWS_DATA || {};
-window.NEWS_DATA['2026-11-04'] = {
+window.NEWS_DATA["2026-11-04"] = {
   "date": "2026-11-04",
-  "generated_at": "2026-11-03T23:07:21Z",
+  "generated_at": "2026-11-04T00:45:18.160Z",
+  "updated_at": "2026-11-04T11:02:17.982Z",
   "collection_method": "independent_web_research",
-  "collection_window": {
-    "start": "2026-11-01T00:45:18.160Z",
-    "end": "2026-11-04T00:45:18.160Z",
-    "timezone": "Asia/Shanghai"
-  },
-  "search_count": 32,
-  "items": [
-    {
-      "id": "2026-11-04-flashprove",
-      "date": "2026-11-04",
-      "title": "Anthropic 开源 FlashProve，验证回答来自指定模型",
-      "summary": "系统用零知识证明把输出绑定到已承诺的模型。400B 模型的单卡试验约能每秒证明 110 个 token，GPU 时间仍是普通推理的约 70–95 倍。",
-      "detail": "近期精选补充。原文发布日期为 2026-11-02。读取范围为研究公告正文、性能数据与发布清单。为什么值得关注？它为模型路由和第三方评测提供了可审计的身份验证方法，成本数据也揭示了部署门槛。",
-      "url": "https://www.anthropic.com/research/provable-inference",
-      "source": "Anthropic",
-      "category": "opensource",
-      "tags": [
-        "模型溯源",
-        "零知识证明"
-      ],
-      "heat": 5,
-      "published_at": "2026-11-02",
-      "retrieved_at": "2026-11-04T00:45:18.160Z",
-      "edition": "morning"
-    },
-    {
-      "id": "2026-11-04-apple-rating",
-      "date": "2026-11-04",
-      "title": "苹果将含恋爱互动的虚拟伴侣纳入 18+ 分级",
-      "summary": "11 月 16 日起，App Store Connect 的问卷新增约会和关系内容申报，覆盖与用户发生性或浪漫互动的虚拟伴侣。相关应用最低为 18+，全量申报截止 2027 年 1 月 12 日。",
-      "detail": "近期精选补充。原文发布日期为 2026-11-02。读取范围为开发者公告全文及 TechCrunch 报道。为什么值得关注？这一变化把特定 AI 伴侣功能直接纳入商店分级和发行流程。",
-      "url": "https://developer.apple.com/news/?id=yxkh08us",
-      "source": "Apple Developer",
-      "category": "regulation",
-      "tags": [
-        "应用商店",
-        "年龄分级"
-      ],
-      "heat": 5,
-      "published_at": "2026-11-02",
-      "retrieved_at": "2026-11-04T00:45:18.160Z",
-      "edition": "morning"
-    },
-    {
-      "id": "2026-11-04-monofacts",
-      "date": "2026-11-04",
-      "title": "研究用训练数据实验追踪模型的科学发现能力",
-      "summary": "作者在材料配方和基因调控任务中操纵训练集里只出现一次的事实比例。两个开放权重模型家族的实验中，这类事实比例较高时，模型在测试任务中产生更多符合目标的新候选。",
-      "detail": "近期精选补充。原文发布日期为 2026-11-02。读取范围为摘要、引言与实验设计。为什么值得关注？实验把科学发现能力与可操纵的数据属性联系起来，为构造科研训练集提供了可检验的假设。",
-      "url": "https://arxiv.org/abs/2611.03617",
-      "source": "arXiv",
-      "category": "research_paper",
-      "tags": [
-        "训练数据",
-        "科学发现"
-      ],
-      "heat": 4,
-      "published_at": "2026-11-02",
-      "retrieved_at": "2026-11-04T00:45:18.160Z",
-      "edition": "morning"
-    },
-    {
-      "id": "2026-11-04-omniq",
-      "date": "2026-11-04",
-      "title": "OmniQ 将 59 篇量子研究转为可执行复现任务",
-      "summary": "作者以 59 篇论文构建专家审核的复现环境，并把人工验证的流程修复转成智能体可复用经验。按论文报告，DeepSeek V4.1 Flash 在该环境的成绩从 68% 升至 85%。",
-      "detail": "近期精选补充。原文发布日期为 2026-11-02。读取范围为论文摘要，仅读摘要。为什么值得关注？它提供了一种直接检查科研智能体能否复现既有结果的办法。",
-      "url": "https://arxiv.org/abs/2611.02833",
-      "source": "arXiv",
-      "category": "research_paper",
-      "tags": [
-        "量子计算",
-        "复现"
-      ],
-      "heat": 4,
-      "published_at": "2026-11-02",
-      "retrieved_at": "2026-11-04T00:45:18.160Z",
-      "edition": "morning"
-    },
-    {
-      "id": "2026-11-04-geoguesser",
-      "date": "2026-11-04",
-      "title": "GeoGuesser Bench 用交互街景区分识图与探索能力",
-      "summary": "研究在 282 项离线街景任务中比较 23 个视觉语言模型。最高地名识别准确率为 62.5%，找物任务最高为 35%，两类能力的相关性较弱。",
-      "detail": "近期精选补充。原文发布日期为 2026-11-02。读取范围为摘要、基准设计及结果表。为什么值得关注？可验证的交互任务能测到静态图像问答容易遗漏的导航能力。",
-      "url": "https://arxiv.org/abs/2611.02698",
-      "source": "arXiv",
-      "category": "research_paper",
-      "tags": [
-        "多模态",
-        "智能体评测"
-      ],
-      "heat": 4,
-      "published_at": "2026-11-02",
-      "retrieved_at": "2026-11-04T00:45:18.160Z",
-      "edition": "morning"
-    },
-    {
-      "id": "2026-11-04-guava",
-      "date": "2026-11-04",
-      "title": "Guava 获 1250 万美元种子轮，开发企业语音智能体平台",
-      "summary": "Acrew Capital 领投。Guava 将语音识别、语言模型和语音合成集成在同一平台，允许开发者通过 SDK 和业务规则控制通话流程。",
-      "detail": "原文发布日期为 2026-11-03。读取范围为公司公告正文与 Axios 同日报道。为什么值得关注？这笔融资反映出企业语音智能体的竞争正在转向通话稳定性和业务控制。",
-      "url": "https://www.businesswire.com/news/home/20261102236960/en/Guava-Lands-%2412.5-Million-to-Tackle-Voice-AIs-Real-world-Growing-Pains",
-      "source": "Guava / Business Wire",
-      "category": "funding",
-      "tags": [
-        "语音智能体",
-        "融资"
-      ],
-      "heat": 4,
-      "published_at": "2026-11-03",
-      "retrieved_at": "2026-11-04T00:45:18.160Z",
-      "edition": "morning"
-    },
-    {
-      "id": "2026-11-04-corridian",
-      "date": "2026-11-04",
-      "title": "Corridian 获 3800 万美元开发大型自主水下航行器",
-      "summary": "Point72 Ventures 领投。资金将用于旗舰航行器研发和扩建研发设施。公司计划在 2027 年公开旗舰型号，设计目标包括无人运输标准集装箱规格载荷。",
-      "detail": "原文发布日期为 2026-11-03。读取范围为公司融资公告正文。为什么值得关注？该项目把自主系统的应用扩展到长距离水下物流，公开型号将为核验目标提供机会。",
-      "url": "https://www.businesswire.com/news/home/20261103680761/en/Corridian-Emerges-With-%2438-Million-to-Build-America%E2%80%99s-Undersea-Stealth-Logistics-Fleet",
-      "source": "Corridian / Business Wire",
-      "category": "funding",
-      "tags": [
-        "自主系统",
-        "水下机器人"
-      ],
-      "heat": 3,
-      "published_at": "2026-11-03",
-      "retrieved_at": "2026-11-04T00:45:18.160Z",
-      "edition": "morning"
-    },
-    {
-      "id": "2026-11-04-itch-disclosure",
-      "date": "2026-11-04",
-      "title": "itch.io 扩大生成式 AI 内容披露范围",
-      "summary": "itch.io 要求桌游、书籍、漫画和原声带分类在创建或编辑页面时填写 AI 使用披露，既有的游戏素材分类也采用该要求。",
-      "detail": "原文发布日期为 2026-11-03。读取范围为平台原帖及 PC Gamer 报道正文。为什么值得关注？上传时的披露可让平台以结构化信息支持用户筛选内容。",
-      "url": "https://bsky.app/profile/itch.io/post/3mzewzv54dc2h",
-      "source": "itch.io",
-      "category": "community_hot",
-      "tags": [
-        "生成内容",
-        "平台治理"
-      ],
-      "heat": 3,
-      "published_at": "2026-11-03",
-      "retrieved_at": "2026-11-04T00:45:18.160Z",
-      "edition": "morning"
-    },
-    {
-      "id": "2026-11-04-claim-verification",
-      "date": "2026-11-04",
-      "title": "科学声明核验实验发现双模型共识规则降低了成绩",
-      "summary": "研究在 2035 条科研和临床声明上比较模型，把推理模型与语言模型不一致的结论归为证据不足。Qwen3 单独运行的 Macro-F1 约为 0.794，融合后约为 0.739。",
-      "detail": "近期精选补充。原文发布日期为 2026-11-02。读取范围为摘要、相关工作及数据集说明。为什么值得关注？评测表明，增加一个保守的核验关卡也可能推翻原有正确判断，融合策略需要实测。",
-      "url": "https://arxiv.org/abs/2611.03093",
-      "source": "arXiv",
-      "category": "research_paper",
-      "tags": [
-        "事实核验",
-        "科学文献"
-      ],
-      "heat": 3,
-      "published_at": "2026-11-02",
-      "retrieved_at": "2026-11-04T00:45:18.160Z",
-      "edition": "morning"
-    },
-    {
-      "id": "2026-11-04-cisa",
-      "date": "2026-11-04",
-      "title": "CISA 为预训练模型改用分块稀疏注意力，无需重新训练",
-      "summary": "CISA 用键向量摘要选择需要读取的 KV 缓存块，并在相邻查询间复用部分选择结果。作者在百万 token 上下文的单层 GPU 基准中测得，计入分块打分和选择后，预填充及解码阶段的加速分别为 8.6 倍和 3.0 倍。",
-      "detail": "近期精选补充。原文于 2026 年 11 月 2 日提交 arXiv。读取范围为论文摘要、正文方法及单层性能基准说明。数字来自特定 BF16、批量大小为 32 的单层实验，端到端服务收益仍需验证。为什么值得关注？该方法可直接应用于已有密集注意力模型，并把稀疏索引的实际开销计入比较。",
-      "url": "https://arxiv.org/abs/2611.03200",
-      "source": "arXiv",
-      "category": "research_paper",
-      "tags": [
-        "长上下文",
-        "稀疏注意力",
-        "推理优化"
-      ],
-      "heat": 3,
-      "published_at": "2026-11-02",
-      "retrieved_at": "2026-11-04T00:47:21.531Z",
-      "edition": "morning"
-    }
-  ],
-  "total_count": 10,
-  "categories": {
-    "opensource": 1,
-    "regulation": 1,
-    "research_paper": 5,
-    "funding": 2,
-    "community_hot": 1
-  },
-  "updated_at": "2026-11-04T00:47:21.531Z",
+  "search_count": 68,
   "editions": {
     "morning": {
       "item_ids": [
@@ -222,6 +26,402 @@ window.NEWS_DATA['2026-11-04'] = {
         "timezone": "Asia/Shanghai"
       },
       "search_count": 32
+    },
+    "evening": {
+      "item_ids": [
+        "2026-11-04-tencent-hy4",
+        "2026-11-04-apple-siri-ai-developer-preview",
+        "2026-11-04-amd-q3-2026",
+        "2026-11-04-unesco-ai-climate-institute",
+        "2026-11-04-asu-retinal-ai-alzheimer",
+        "2026-11-04-adversarial-speculative-reasoning",
+        "2026-11-04-pearl-durable-suppression",
+        "2026-11-04-stringman-lerobot-community",
+        "2026-11-04-meituan-longcat-2-5",
+        "2026-11-04-receipt-agent-command-state"
+      ],
+      "generated_at": "2026-11-04T11:02:17Z",
+      "collection_window": {
+        "start": "2026-11-01T11:02:17.000Z",
+        "end": "2026-11-04T11:02:17Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "search_count": 36
     }
+  },
+  "items": [
+    {
+      "id": "2026-11-04-flashprove",
+      "date": "2026-11-04",
+      "title": "Anthropic 开源 FlashProve，验证回答来自指定模型",
+      "summary": "系统用零知识证明把输出绑定到已承诺的模型。400B 模型的单卡试验约能每秒证明 110 个 token，GPU 时间仍是普通推理的约 70–95 倍。",
+      "detail": "近期精选补充。原文发布日期为 2026-11-02。读取范围为研究公告正文、性能数据与发布清单。\n\n为什么值得关注？它为模型路由和第三方评测提供了可审计的身份验证方法，成本数据也揭示了部署门槛。",
+      "url": "https://www.anthropic.com/research/provable-inference",
+      "source": "Anthropic",
+      "category": "opensource",
+      "tags": [
+        "模型溯源",
+        "零知识证明"
+      ],
+      "heat": 5,
+      "published_at": "2026-11-02",
+      "retrieved_at": "2026-11-04T00:45:18.160Z",
+      "edition": "morning"
+    },
+    {
+      "id": "2026-11-04-apple-rating",
+      "date": "2026-11-04",
+      "title": "苹果将含恋爱互动的虚拟伴侣纳入 18+ 分级",
+      "summary": "11 月 16 日起，App Store Connect 的问卷新增约会和关系内容申报，覆盖与用户发生性或浪漫互动的虚拟伴侣。相关应用最低为 18+，全量申报截止 2027 年 1 月 12 日。",
+      "detail": "近期精选补充。原文发布日期为 2026-11-02。读取范围为开发者公告全文及 TechCrunch 报道。\n\n为什么值得关注？这一变化把特定 AI 伴侣功能直接纳入商店分级和发行流程。",
+      "url": "https://developer.apple.com/news/?id=yxkh08us",
+      "source": "Apple Developer",
+      "category": "regulation",
+      "tags": [
+        "应用商店",
+        "年龄分级"
+      ],
+      "heat": 5,
+      "published_at": "2026-11-02",
+      "retrieved_at": "2026-11-04T00:45:18.160Z",
+      "edition": "morning"
+    },
+    {
+      "id": "2026-11-04-monofacts",
+      "date": "2026-11-04",
+      "title": "研究用训练数据实验追踪模型的科学发现能力",
+      "summary": "作者在材料配方和基因调控任务中操纵训练集里只出现一次的事实比例。两个开放权重模型家族的实验中，这类事实比例较高时，模型在测试任务中产生更多符合目标的新候选。",
+      "detail": "近期精选补充。原文发布日期为 2026-11-02。读取范围为摘要、引言与实验设计。\n\n为什么值得关注？实验把科学发现能力与可操纵的数据属性联系起来，为构造科研训练集提供了可检验的假设。",
+      "url": "https://arxiv.org/abs/2611.03617",
+      "source": "arXiv",
+      "category": "research_paper",
+      "tags": [
+        "训练数据",
+        "科学发现"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-02",
+      "retrieved_at": "2026-11-04T00:45:18.160Z",
+      "edition": "morning"
+    },
+    {
+      "id": "2026-11-04-omniq",
+      "date": "2026-11-04",
+      "title": "OmniQ 将 59 篇量子研究转为可执行复现任务",
+      "summary": "作者以 59 篇论文构建专家审核的复现环境，并把人工验证的流程修复转成智能体可复用经验。按论文报告，DeepSeek V4.1 Flash 在该环境的成绩从 68% 升至 85%。",
+      "detail": "近期精选补充。原文发布日期为 2026-11-02。读取范围为论文摘要，仅读摘要。\n\n为什么值得关注？它提供了一种直接检查科研智能体能否复现既有结果的办法。",
+      "url": "https://arxiv.org/abs/2611.02833",
+      "source": "arXiv",
+      "category": "research_paper",
+      "tags": [
+        "量子计算",
+        "复现"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-02",
+      "retrieved_at": "2026-11-04T00:45:18.160Z",
+      "edition": "morning"
+    },
+    {
+      "id": "2026-11-04-geoguesser",
+      "date": "2026-11-04",
+      "title": "GeoGuesser Bench 用交互街景区分识图与探索能力",
+      "summary": "研究在 282 项离线街景任务中比较 23 个视觉语言模型。最高地名识别准确率为 62.5%，找物任务最高为 35%，两类能力的相关性较弱。",
+      "detail": "近期精选补充。原文发布日期为 2026-11-02。读取范围为摘要、基准设计及结果表。\n\n为什么值得关注？可验证的交互任务能测到静态图像问答容易遗漏的导航能力。",
+      "url": "https://arxiv.org/abs/2611.02698",
+      "source": "arXiv",
+      "category": "research_paper",
+      "tags": [
+        "多模态",
+        "智能体评测"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-02",
+      "retrieved_at": "2026-11-04T00:45:18.160Z",
+      "edition": "morning"
+    },
+    {
+      "id": "2026-11-04-guava",
+      "date": "2026-11-04",
+      "title": "Guava 获 1250 万美元种子轮，开发企业语音智能体平台",
+      "summary": "Acrew Capital 领投。Guava 将语音识别、语言模型和语音合成集成在同一平台，允许开发者通过 SDK 和业务规则控制通话流程。",
+      "detail": "原文发布日期为 2026-11-03。读取范围为公司公告正文与 Axios 同日报道。\n\n为什么值得关注？这笔融资反映出企业语音智能体的竞争正在转向通话稳定性和业务控制。",
+      "url": "https://www.businesswire.com/news/home/20261102236960/en/Guava-Lands-%2412.5-Million-to-Tackle-Voice-AIs-Real-world-Growing-Pains",
+      "source": "Guava / Business Wire",
+      "category": "funding",
+      "tags": [
+        "语音智能体",
+        "融资"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-03",
+      "retrieved_at": "2026-11-04T00:45:18.160Z",
+      "edition": "morning"
+    },
+    {
+      "id": "2026-11-04-corridian",
+      "date": "2026-11-04",
+      "title": "Corridian 获 3800 万美元开发大型自主水下航行器",
+      "summary": "Point72 Ventures 领投。资金将用于旗舰航行器研发和扩建研发设施。公司计划在 2027 年公开旗舰型号，设计目标包括无人运输标准集装箱规格载荷。",
+      "detail": "原文发布日期为 2026-11-03。读取范围为公司融资公告正文。\n\n为什么值得关注？该项目把自主系统的应用扩展到长距离水下物流，公开型号将为核验目标提供机会。",
+      "url": "https://www.businesswire.com/news/home/20261103680761/en/Corridian-Emerges-With-%2438-Million-to-Build-America%E2%80%99s-Undersea-Stealth-Logistics-Fleet",
+      "source": "Corridian / Business Wire",
+      "category": "funding",
+      "tags": [
+        "自主系统",
+        "水下机器人"
+      ],
+      "heat": 3,
+      "published_at": "2026-11-03",
+      "retrieved_at": "2026-11-04T00:45:18.160Z",
+      "edition": "morning"
+    },
+    {
+      "id": "2026-11-04-itch-disclosure",
+      "date": "2026-11-04",
+      "title": "itch.io 扩大生成式 AI 内容披露范围",
+      "summary": "itch.io 要求桌游、书籍、漫画和原声带分类在创建或编辑页面时填写 AI 使用披露，既有的游戏素材分类也采用该要求。",
+      "detail": "原文发布日期为 2026-11-03。读取范围为平台原帖及 PC Gamer 报道正文。\n\n为什么值得关注？上传时的披露可让平台以结构化信息支持用户筛选内容。",
+      "url": "https://bsky.app/profile/itch.io/post/3mzewzv54dc2h",
+      "source": "itch.io",
+      "category": "community_hot",
+      "tags": [
+        "生成内容",
+        "平台治理"
+      ],
+      "heat": 3,
+      "published_at": "2026-11-03",
+      "retrieved_at": "2026-11-04T00:45:18.160Z",
+      "edition": "morning"
+    },
+    {
+      "id": "2026-11-04-claim-verification",
+      "date": "2026-11-04",
+      "title": "科学声明核验实验发现双模型共识规则降低了成绩",
+      "summary": "研究在 2035 条科研和临床声明上比较模型，把推理模型与语言模型不一致的结论归为证据不足。Qwen3 单独运行的 Macro-F1 约为 0.794，融合后约为 0.739。",
+      "detail": "近期精选补充。原文发布日期为 2026-11-02。读取范围为摘要、相关工作及数据集说明。\n\n为什么值得关注？评测表明，增加一个保守的核验关卡也可能推翻原有正确判断，融合策略需要实测。",
+      "url": "https://arxiv.org/abs/2611.03093",
+      "source": "arXiv",
+      "category": "research_paper",
+      "tags": [
+        "事实核验",
+        "科学文献"
+      ],
+      "heat": 3,
+      "published_at": "2026-11-02",
+      "retrieved_at": "2026-11-04T00:45:18.160Z",
+      "edition": "morning"
+    },
+    {
+      "id": "2026-11-04-cisa",
+      "date": "2026-11-04",
+      "title": "CISA 为预训练模型改用分块稀疏注意力，无需重新训练",
+      "summary": "CISA 用键向量摘要选择需要读取的 KV 缓存块，并在相邻查询间复用部分选择结果。作者在百万 token 上下文的单层 GPU 基准中测得，计入分块打分和选择后，预填充及解码阶段的加速分别为 8.6 倍和 3.0 倍。",
+      "detail": "近期精选补充。原文于 2026 年 11 月 2 日提交 arXiv。读取范围为论文摘要、正文方法及单层性能基准说明。数字来自特定 BF16、批量大小为 32 的单层实验，端到端服务收益仍需验证。\n\n为什么值得关注？该方法可直接应用于已有密集注意力模型，并把稀疏索引的实际开销计入比较。",
+      "url": "https://arxiv.org/abs/2611.03200",
+      "source": "arXiv",
+      "category": "research_paper",
+      "tags": [
+        "长上下文",
+        "稀疏注意力",
+        "推理优化"
+      ],
+      "heat": 3,
+      "published_at": "2026-11-02",
+      "retrieved_at": "2026-11-04T00:47:21.531Z",
+      "edition": "morning"
+    },
+    {
+      "id": "2026-11-04-tencent-hy4",
+      "date": "2026-11-04",
+      "title": "腾讯混元 Hy4 正式版接入 API，新增视觉理解",
+      "summary": "腾讯云 TokenHub 已列出 Hy4 正式版调用方式。官方文档给出的上下文窗口为 1024k，并将视觉理解列为相对预览版的新增能力。权重公开仍是后续计划。",
+      "detail": "原文日期 2026-11-04。读取腾讯云 11 月 4 日版的模型规格与调用说明，并交叉查看路透社和 IT 之家发布报道。\n\n为什么值得关注？已有兼容接口的团队可以测试图表理解和长程任务，权重发布则关系到能否独立部署与复现。",
+      "url": "https://cloud.tencent.com/document/product/1823/132252",
+      "source": "腾讯云",
+      "category": "product_release",
+      "tags": [
+        "腾讯混元",
+        "多模态"
+      ],
+      "heat": 5,
+      "published_at": "2026-11-04",
+      "retrieved_at": "2026-11-04T11:01:05Z",
+      "edition": "evening"
+    },
+    {
+      "id": "2026-11-04-apple-siri-ai-developer-preview",
+      "date": "2026-11-04",
+      "title": "苹果向所有开发者开放 Siri AI 接入预览",
+      "summary": "苹果在 iOS、iPadOS、macOS 和 visionOS 27.3 测试版开放开发者预览。第三方应用可用 App Intents 向 Siri AI 提供内容和操作，也可定义由多步操作组成的技能。",
+      "detail": "原文日期 2026-11-03。读取官方公告的接入机制与发布安排。当前是开发者预览。\n\n为什么值得关注？语音助手可以直接调用第三方应用功能，开发者现在能测试订单查询、预约等操作在真实应用里的接入方式。",
+      "url": "https://developer.apple.com/news/?id=gdk2umrf",
+      "source": "Apple Developer",
+      "category": "product_release",
+      "tags": [
+        "Siri",
+        "App Intents"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-03",
+      "retrieved_at": "2026-11-04T11:01:05Z",
+      "edition": "evening"
+    },
+    {
+      "id": "2026-11-04-amd-q3-2026",
+      "date": "2026-11-04",
+      "title": "AMD 数据中心季度营收约 85 亿美元，同比增长 97%",
+      "summary": "AMD 披露 2026 年第三季度总营收为 133.77 亿美元。数据中心部门营收为 85.46 亿美元，公司将增长归因于 EPYC 处理器需求和 Instinct MI450 系列推出。",
+      "detail": "原文日期 2026-11-03。读取 AMD 财报摘要、分部说明及分部营收表。\n\n为什么值得关注？财报提供了观察 AI 算力供应商实际销售的窗口。数据中心部门同时包含服务器 CPU 等产品，不能据此单独估算 AI 加速器营收。",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+      "source": "AMD",
+      "category": "funding",
+      "tags": [
+        "AI 芯片",
+        "财报"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-03",
+      "retrieved_at": "2026-11-04T11:01:05Z",
+      "edition": "evening"
+    },
+    {
+      "id": "2026-11-04-unesco-ai-climate-institute",
+      "date": "2026-11-04",
+      "title": "联合国教科文组织公布 AI 气候研究所启动安排",
+      "summary": "联合国教科文组织、巴西政府与国际电信联盟将于 11 月 16 日在 COP31 启动 AI 气候研究所的运营阶段。公告称届时将发布工作计划、展示试点并开放机构加入。",
+      "detail": "原文日期 2026-11-03。读取伙伴分工、路线图与启动安排。机构构想在 2025 年已公布，本次进展是公布运营启动日期和安排。\n\n为什么值得关注？项目把气候监测所需的技术培训与模型资源消耗放在同一框架里，为算力受限地区提供能力建设渠道。",
+      "url": "https://www.unesco.org/en/articles/unesco-brazilian-government-and-itu-partner-launch-green-ai-climate-institute",
+      "source": "UNESCO",
+      "category": "regulation",
+      "tags": [
+        "气候",
+        "AI 治理"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-03",
+      "retrieved_at": "2026-11-04T11:01:05Z",
+      "edition": "evening"
+    },
+    {
+      "id": "2026-11-04-asu-retinal-ai-alzheimer",
+      "date": "2026-11-04",
+      "title": "亚利桑那州立大学将用视网膜影像研究阿尔茨海默病早筛",
+      "summary": "亚利桑那州立大学与梅奥诊所等机构参与一项由美国国立卫生研究院资助的五年期项目，获资助 320 万美元。团队将用深度学习增强视网膜图像，并研究与血液生物标志物结合后能否识别临床前风险。",
+      "detail": "原文日期 2026-11-03。读取校方项目公告的资助、合作和研究设计段落。公告披露研究计划，尚无新项目临床结果。\n\n为什么值得关注？若后续研究验证了筛查价值，常规眼科成像可能帮助识别值得进一步检查的人群。",
+      "url": "https://news.asu.edu/20261103-science-and-technology-what-eye-may-reveal-about-alzheimers",
+      "source": "Arizona State University",
+      "category": "research_paper",
+      "tags": [
+        "医学影像",
+        "科研资助"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-03",
+      "retrieved_at": "2026-11-04T11:01:05Z",
+      "edition": "evening"
+    },
+    {
+      "id": "2026-11-04-adversarial-speculative-reasoning",
+      "date": "2026-11-04",
+      "title": "研究用草稿模型调节关键推理位置的计算精度",
+      "summary": "研究者训练推测解码的草稿模型，使它在关键决策处更易被目标模型拒绝，从新的验证块开始计算。在每配置五次独立运行的 DeepSWE 实验中，GLM-5.3-nvfp4 平均通过率从 60.6% 升至 67.6%，目标模型权重保持固定。",
+      "detail": "原文日期 2026-11-03。读取 arXiv v1 摘要及正文第 4、5 节相关段落。结论限于论文所测推理栈与任务。\n\n为什么值得关注？部署团队评测长程编码时，除了比较模型，还可以控制推测解码配置，避免把运行栈差异归因于模型本身。",
+      "url": "https://arxiv.org/abs/2611.05345",
+      "source": "arXiv · Luo 等",
+      "category": "research_paper",
+      "tags": [
+        "推测解码",
+        "智能体评测"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-03T18:45:23Z",
+      "retrieved_at": "2026-11-04T11:01:05Z",
+      "edition": "evening"
+    },
+    {
+      "id": "2026-11-04-pearl-durable-suppression",
+      "date": "2026-11-04",
+      "title": "PEARL 研究测试模型不良行为在继续微调后是否反弹",
+      "summary": "研究者在 Qwen3-4B 和 GPT-OSS-20B 上构造两种受控的不良行为，分别由特定提示线索和更广泛的请求触发。PEARL 在训练中从缓存轨迹的中间状态采样续写。作者报告，在所测设置中，该方法较能维持抑制效果并保留任务准确率。",
+      "detail": "原文日期 2026-11-03。读取 arXiv v1 摘要、正文讨论和局限段落。实验覆盖两种受控行为与两个模型系列。\n\n为什么值得关注？将后续微调纳入安全评测，可以发现一次性测评容易漏掉的行为复发。",
+      "url": "https://arxiv.org/abs/2611.05358",
+      "source": "arXiv · He 等",
+      "category": "research_paper",
+      "tags": [
+        "模型安全",
+        "强化学习"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-03T18:54:08Z",
+      "retrieved_at": "2026-11-04T11:01:05Z",
+      "edition": "evening"
+    },
+    {
+      "id": "2026-11-04-stringman-lerobot-community",
+      "date": "2026-11-04",
+      "title": "Stringman 展示可用 LeRobot 采集示范数据的房间级机器人",
+      "summary": "一款由四根线缆悬挂的抓取机器人进入 Hacker News 讨论，项目作者在帖中答疑。项目文档说明，操作者可用手柄遥控，经界面记录示范供 LeRobot 训练，也可在局域网内运行。",
+      "detail": "原文日期 2026-11-03。日期对应 11 月 3 日社区帖。读取作者答疑与项目官网的技术规格、控制和数据采集说明。\n\n为什么值得关注？线缆结构把操作范围扩展到房间尺度，同时省去了移动底盘的导航和平衡控制，适合探索大范围模仿学习。",
+      "url": "https://news.ycombinator.com/item?id=50354358",
+      "source": "Hacker News · Neufangled Robotics",
+      "category": "community_hot",
+      "tags": [
+        "机器人",
+        "LeRobot",
+        "模仿学习"
+      ],
+      "heat": 3,
+      "published_at": "2026-11-03",
+      "retrieved_at": "2026-11-04T11:01:05Z",
+      "edition": "evening"
+    },
+    {
+      "id": "2026-11-04-meituan-longcat-2-5",
+      "date": "2026-11-04",
+      "title": "美团发布面向长程智能体任务的 LongCat-2.5",
+      "summary": "美团技术团队披露，LongCat-2.5 总参数约 1.6 万亿，每个 token 激活约 480 亿参数。模型以多层离散 token 表示图像，并将智能体的部分失败轨迹转为可用测试用例验证的训练任务。",
+      "detail": "原文日期 2026-11-02。近期精选补充。读取 11 月 2 日官方技术文的发布摘要、视觉表征和智能体强化学习部分。\n\n为什么值得关注？失败轨迹可以变成后续训练和回归检查的材料。原生视觉输入也使模型可处理依赖截图或设计图的编程任务。",
+      "url": "https://tech.meituan.com/2026/11/02/Meituan-LongCat-2.5.html",
+      "source": "美团技术团队",
+      "category": "product_release",
+      "tags": [
+        "LongCat",
+        "视觉编程",
+        "智能体"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-02",
+      "retrieved_at": "2026-11-04T11:01:05Z",
+      "edition": "evening"
+    },
+    {
+      "id": "2026-11-04-receipt-agent-command-state",
+      "date": "2026-11-04",
+      "title": "RECEIPT 用进程状态识别智能体命令的假成功",
+      "summary": "研究者发现，在 Litmus 中关闭输入后，156 个会提示用户的调用里有 18 个以状态码 0 退出却未执行请求。RECEIPT 从系统调用识别进程等待的输入。在论文比较的五个模型中，相较关闭输入，误报成功次数由 34 次减至 9 次。",
+      "detail": "原文日期 2026-11-01。近期精选补充。读取 arXiv v1 摘要、正文引言与实验结果概述。数字限于论文的调用集合与对照设置。\n\n为什么值得关注？自动化发布、迁移和运维都可能遇到交互提示。把进程在等待什么返回给智能体，有助于核实操作结果。",
+      "url": "https://arxiv.org/abs/2611.01930",
+      "source": "arXiv · Yang 等",
+      "category": "research_paper",
+      "tags": [
+        "智能体",
+        "可复现评测",
+        "命令执行"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-01T14:06:53Z",
+      "retrieved_at": "2026-11-04T11:01:05Z",
+      "edition": "evening"
+    }
+  ],
+  "total_count": 20,
+  "categories": {
+    "product_release": 3,
+    "research_paper": 9,
+    "opensource": 1,
+    "funding": 3,
+    "regulation": 2,
+    "community_hot": 2
   }
 };

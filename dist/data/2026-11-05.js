@@ -1,0 +1,443 @@
+window.NEWS_DATA = window.NEWS_DATA || {};
+window.NEWS_DATA["2026-11-05"] = {
+  "date": "2026-11-05",
+  "generated_at": "2026-11-04T22:59:40.154Z",
+  "updated_at": "2026-11-05T11:03:43.088Z",
+  "collection_method": "independent_web_research",
+  "search_count": 71,
+  "editions": {
+    "morning": {
+      "item_ids": [
+        "autodna-nature",
+        "cert-in-crafty-falcon",
+        "terawulf-google-backstop",
+        "meta-conductor",
+        "together-compiler",
+        "forgekernel-arxiv",
+        "checkpoint-prompt-adware",
+        "nooks-node-growth",
+        "cohere-openrouter-retrieval",
+        "fal-series-f-2026"
+      ],
+      "generated_at": "2026-11-04T22:59:40.154Z",
+      "collection_window": {
+        "start": "2026-11-01T22:56:10Z",
+        "end": "2026-11-04T22:56:10Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "search_count": 35
+    },
+    "evening": {
+      "item_ids": [
+        "ernie-55-flash-base",
+        "ripple-65b-preview",
+        "images-26",
+        "pierre-acquisition",
+        "claude-vault-particles",
+        "linux-vulnerability-pipeline",
+        "google-health-evaluation",
+        "corde-disclosure",
+        "eu-ai-act-qa-benchmark",
+        "embodied-science-evidence-review"
+      ],
+      "generated_at": "2026-11-05T11:03:42Z",
+      "collection_window": {
+        "start": "2026-11-02T11:03:42.000Z",
+        "end": "2026-11-05T11:03:42Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "search_count": 36
+    }
+  },
+  "items": [
+    {
+      "id": "autodna-nature",
+      "date": "2026-11-05",
+      "title": "AutoDNA 将核酸实验的多个环节接入同一自动化平台",
+      "summary": "研究团队在《自然》发表 AutoDNA。系统可调度 20 多类仪器，执行合成、转录、扩增和测序等操作，并在示范实验中完成一次 DNA 数据存储与无误恢复。",
+      "detail": "原文发布日期为 2026-11-04。读取论文摘要和代码可用性声明，未阅读全文。作者报告的 3.2 倍提速针对并发协议执行。实验仍需人工补充试剂、耗材及维护设备。\n\n为什么值得关注？可复用的实验流程比单台设备的演示更有参考价值。论文同时给出了代码存档线索，便于其他团队比较平台设计。",
+      "url": "https://www.nature.com/articles/s41586-026-11228-6",
+      "source": "Nature",
+      "category": "research_paper",
+      "tags": [
+        "自动化实验室",
+        "核酸",
+        "科研复现"
+      ],
+      "heat": 5,
+      "published_at": "2026-11-04",
+      "retrieved_at": "2026-11-04T22:59:09Z",
+      "edition": "morning"
+    },
+    {
+      "id": "cert-in-crafty-falcon",
+      "date": "2026-11-05",
+      "title": "印度 CERT-In 更新金融业预警，披露 AI 辅助攻击链",
+      "summary": "印度计算机应急响应团队报告，攻击者利用公开 AI 安全工具辅助侦察和生成攻击脚本，并尝试通过受害机构自身的支付与放款 API 转移资金。",
+      "detail": "原文发布日期为 2026-11-04。读取官方通告的概述和攻击模式，并与路透社报道交叉核验。原文更新了 10 月 9 日通告，此次新增攻击升级及重复受袭观察。\n\n为什么值得关注？通告把测试环境、共享凭据和支付接口串进同一攻击链，为金融团队排查跨环境权限提供了具体线索。",
+      "url": "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0058&pageid=PUBVLNOTES02",
+      "source": "CERT-In",
+      "category": "regulation",
+      "tags": [
+        "金融安全",
+        "支付接口",
+        "智能体"
+      ],
+      "heat": 5,
+      "published_at": "2026-11-04",
+      "retrieved_at": "2026-11-04T22:59:09Z",
+      "edition": "morning"
+    },
+    {
+      "id": "terawulf-google-backstop",
+      "date": "2026-11-05",
+      "title": "Google 为 TeraWulf 的 Anthropic 数据中心项目提供信用支持",
+      "summary": "TeraWulf 宣布与 Google 签署信用支持协议，为肯塔基州数据中心的预期债务融资提供支持。该园区涉及约 190 亿美元的 Anthropic 合同租赁承诺，另有三栋数据中心纳入与 Fluor 的工程协议。",
+      "detail": "原文发布日期为 2026-11-04。读取公司公告的融资和工程条款，并与路透社报道交叉核验。约 190 亿美元是合同租赁承诺总额，公告未把它列为 Google 的信用支持金额。\n\n为什么值得关注？把长期租约与工程交付节点放在一起看，可以看出 AI 算力扩张怎样转化为融资与建设义务。",
+      "url": "https://investors.terawulf.com/news-events/press-releases/detail/148/terawulf-secures-google-credit-backstop-for-project-financing-in-support-of-19-billion-anthropic-lease-executes-definitive-fluor-epc-agreement",
+      "source": "TeraWulf",
+      "category": "funding",
+      "tags": [
+        "算力基础设施",
+        "Anthropic",
+        "Google"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-04",
+      "retrieved_at": "2026-11-04T22:59:09Z",
+      "edition": "morning"
+    },
+    {
+      "id": "meta-conductor",
+      "date": "2026-11-05",
+      "title": "Conductor 加入 Meta，云端工作区将于 11 月 20 日关闭",
+      "summary": "编程工具 Conductor 宣布加入 Meta。云端工作区将于 11 月 13 日转为只读、20 日关闭。团队表示，本地应用仍会更新模型并修复关键问题至 2027 年初。",
+      "detail": "原文发布日期为 2026-11-04。读取团队公告的时间表和用户问答。原站以 11 月 4 日作为变更起点，同日 TechCrunch 报道交叉核验收购与关闭安排。\n\n为什么值得关注？对已有用户而言，最直接的变化是云端任务和数据迁移期限。公告提供了将云端工作区转成本地工作区以及导出数据的方式。",
+      "url": "https://www.conductor.build/announcement",
+      "source": "Conductor",
+      "category": "funding",
+      "tags": [
+        "Meta",
+        "编程智能体",
+        "产品迁移"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-04",
+      "retrieved_at": "2026-11-04T22:59:09Z",
+      "edition": "morning"
+    },
+    {
+      "id": "together-compiler",
+      "date": "2026-11-05",
+      "title": "Together AI 推出由智能体持续调优的推理编译器",
+      "summary": "Together Compiler 让多组智能体改写并验证模型推理的 GPU 代码。Together AI 表示，服务已用于部分无服务器端点，独立部署功能处于限量测试。",
+      "detail": "原文发布日期为 2026-11-04。读取 Together AI 在 AIwire 刊发的发布稿正文。公司报告 Kimi K3 和 GLM 5.3 的峰值吞吐分别为所用 InferenceX 对照结果的 1.5 倍和 1.4 倍，数字限于发布稿所述模型和对照。\n\n为什么值得关注？把优化与验证纳入部署流程，有望缩短新模型从可运行到高吞吐的调优周期。",
+      "url": "https://www.hpcwire.com/aiwire/2026/11/04/together-ai-launches-together-compiler-for-continual-optimization-of-open-source-ai-models/",
+      "source": "Together AI（经 AIwire 发布）",
+      "category": "product_release",
+      "tags": [
+        "推理优化",
+        "GPU",
+        "编译器"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-04",
+      "retrieved_at": "2026-11-04T22:59:09Z",
+      "edition": "morning"
+    },
+    {
+      "id": "forgekernel-arxiv",
+      "date": "2026-11-05",
+      "title": "ForgeKernel 让算子优化经验在多轮搜索间复用",
+      "summary": "ForgeKernel 从高性能参考算子提炼可复用的硬件机制，在候选通过正确性和性能验证后，用它作为下一轮优化的参考。",
+      "detail": "原文发布日期为 2026-11-03。近期精选补充。仅读取 arXiv v1 摘要和提交记录。作者报告在 NVIDIA Hopper 和 Blackwell 上的 29 种输入配置中，有 25 种达到或超过专家参考，性能几何均值提升 10%。结果来自预印本所述测试。\n\n为什么值得关注？可以用论文给出的算子和输入配置比较迭代式优化与人工参考实现，观察哪些收益能跨硬件复现。",
+      "url": "https://arxiv.org/abs/2611.04998",
+      "source": "arXiv／ForgeKernel 作者",
+      "category": "research_paper",
+      "tags": [
+        "GPU算子",
+        "性能基准",
+        "预印本"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-03T14:49:28Z",
+      "retrieved_at": "2026-11-04T22:59:09Z",
+      "edition": "morning"
+    },
+    {
+      "id": "checkpoint-prompt-adware",
+      "date": "2026-11-05",
+      "title": "Check Point 披露第三方 Codex 配置包植入持久提示广告",
+      "summary": "研究人员分析 Haiou 的 Codex 配置包后发现，安装过程会改写全局智能体指令，使后续回答推广第三方模型网关。",
+      "detail": "原文发布日期为 2026-11-03。近期精选补充。读取 Check Point 的报告概述、样本与安装分析，并与 The Hacker News 报道交叉核验。结论针对所分析的第三方包及其 4.5.0 版本。\n\n为什么值得关注？全局指令和技能也属于智能体的供应链。此案例展示了只检查传统可执行文件可能遗漏的持久行为。",
+      "url": "https://research.checkpoint.com/2026/free-the-model-sell-the-gateway-prompt-adware-hidden-in-jailbreak-bundles/",
+      "source": "Check Point Research",
+      "category": "research_paper",
+      "tags": [
+        "提示注入",
+        "供应链安全",
+        "Codex"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-03",
+      "retrieved_at": "2026-11-04T22:59:09Z",
+      "edition": "morning"
+    },
+    {
+      "id": "nooks-node-growth",
+      "date": "2026-11-05",
+      "title": "Nooks 获 5 亿美元增长资金承诺并推出销售助手 Node",
+      "summary": "Nooks 宣布获得 General Catalyst 旗下 Customer Value Fund 的增长资金承诺，并推出可利用通话、电邮和商机上下文协助销售人员的 Node。",
+      "detail": "原文发布日期为 2026-11-04。读取 Nooks 公告的资金与产品段落，并与路透社交叉核验。资金用于支持销售和营销扩张，按增长资金承诺表述。\n\n为什么值得关注？把销售上下文跨多次接触保留下来，是此类工具能否进入日常销售流程的重要一环。",
+      "url": "https://www.nooks.ai/blog-posts/introducing-node-revenue-agent-platform",
+      "source": "Nooks",
+      "category": "funding",
+      "tags": [
+        "销售智能体",
+        "增长融资",
+        "企业应用"
+      ],
+      "heat": 3,
+      "published_at": "2026-11-04",
+      "retrieved_at": "2026-11-04T22:59:09Z",
+      "edition": "morning"
+    },
+    {
+      "id": "cohere-openrouter-retrieval",
+      "date": "2026-11-05",
+      "title": "Cohere 的 Embed 5 和 Rerank 5 接入 OpenRouter",
+      "summary": "OpenRouter 现可调用 Cohere 的嵌入和重排模型。Cohere 随公告发布 Python 示例，演示如何从文档建索引、召回候选，再筛出供模型引用的段落。",
+      "detail": "原文发布日期为 2026-11-04。读取 Cohere 公告、流程图和重排示例。上线范围是新增 OpenRouter 接入渠道，示例效果取决于文档和检索设置。\n\n为什么值得关注？示例把索引成本与每次查询的调用成本拆开，便于在自己的语料上测量召回、延迟和费用。",
+      "url": "https://cohere.com/blog/embed-rerank-5-openrouter",
+      "source": "Cohere",
+      "category": "product_release",
+      "tags": [
+        "RAG",
+        "向量检索",
+        "重排"
+      ],
+      "heat": 3,
+      "published_at": "2026-11-04",
+      "retrieved_at": "2026-11-04T22:59:09Z",
+      "edition": "morning"
+    },
+    {
+      "id": "fal-series-f-2026",
+      "date": "2026-11-05",
+      "title": "fal 同步披露 E 轮和 F 轮，扩充生成媒体推理能力",
+      "summary": "生成媒体推理服务商 fal 披露今年早些时候完成的 E 轮与最新 F 轮，后者由 Bessemer Venture Partners 领投，NVIDIA 继续参与。",
+      "detail": "原文发布日期为 2026-11-03。近期精选补充。读取 fal 官方博客融资与用途段落。官方页面只标 2026 年 11 月，11 月 3 日的披露日期由同日 TechCrunch 报道核对。\n\n为什么值得关注？图像、视频和音频模型进入制作流程后，推理吞吐与交付成本成为独立的基础设施需求。",
+      "url": "https://fal.ai/blog/series-e-f",
+      "source": "fal",
+      "category": "funding",
+      "tags": [
+        "生成媒体",
+        "推理服务",
+        "融资"
+      ],
+      "heat": 3,
+      "published_at": "2026-11-03",
+      "retrieved_at": "2026-11-04T22:59:09Z",
+      "edition": "morning"
+    },
+    {
+      "id": "ernie-55-flash-base",
+      "date": "2026-11-05",
+      "title": "百度开放 ERNIE 5.5 Flash Base 预训练权重",
+      "summary": "百度发布 280B 总参数、每 token 激活 14B 参数的稀疏 MoE 基座模型，在 33.5T tokens 上完成预训练。官方说明，最长训练上下文为 128K，微调与推理支持 1M tokens，并提供权重和微调入口。",
+      "detail": "原文发布日期 2026-11-05。读取官方技术博客的引言、架构与预训练章节。发布日期由官网动态列表核对。此次权重未经中训练与后训练。Hugging Face 文件页未能读取，未验证下载。\n\n为什么值得关注？统一的预训练终点可供团队对照不同领域适配、指令微调和强化学习方案。",
+      "url": "https://ernie.baidu.com/zh/release/ernie-5-5-flash-base/",
+      "source": "百度文心",
+      "category": "opensource",
+      "tags": [
+        "开放权重",
+        "预训练",
+        "MoE"
+      ],
+      "heat": 5,
+      "published_at": "2026-11-05",
+      "retrieved_at": "2026-11-05T11:03:24Z",
+      "edition": "evening"
+    },
+    {
+      "id": "ripple-65b-preview",
+      "date": "2026-11-05",
+      "title": "Ricursive 发布 Apache 2.0 许可的 Ripple-65B Preview",
+      "summary": "Ricursive 开放 65B 稠密模型的指令版、基础版及 NVFP4 量化版本。模型卡称其以 12T tokens 预训练，支持最高 1M 上下文，并公开训练阶段和评测设置。",
+      "detail": "原文发布日期 2026-11-04。读取官方模型卡、许可标识、训练流程和基准说明，并核对官方发布页。11 月 4 日发布由官方社交帖及 VentureBeat 同日报道核对。作者提示评测框架会影响成绩，本文不据此宣称全面领先。\n\n为什么值得关注？同时提供基础权重和指令权重，让开发者可以分别研究预训练能力与后训练收益。量化版本提供了本地运行入口。",
+      "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+      "source": "Ricursive Intelligence",
+      "category": "opensource",
+      "tags": [
+        "开放权重",
+        "编码智能体",
+        "Apache-2.0"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-04",
+      "retrieved_at": "2026-11-05T11:03:24Z",
+      "edition": "evening"
+    },
+    {
+      "id": "images-26",
+      "date": "2026-11-05",
+      "title": "Images 2.6 上线，增加 GIF、SVG 导出与图像标记编辑",
+      "summary": "OpenAI 发布 Images 2.6，并向 API 提供 Flare 与 Sunburst 两种型号。公告介绍了 GIF 创作、SVG 导出、指定区域编辑和控制场景规划的 complexity 参数。公司称低质量设置下 Flare 最快约六秒出图。",
+      "detail": "原文发布日期 2026-11-04。读取官方公告的功能、API 控制与可用范围章节。速度是厂商所述特定质量设置下的数据，未进行独立测试。\n\n为什么值得关注？图像标记和跨轮编辑一致性关系到设计迭代的可控程度，SVG 导出则便于将设计带入后续制作流程。",
+      "url": "https://openai.com/index/introducing-images-2-6/",
+      "source": "OpenAI",
+      "category": "product_release",
+      "tags": [
+        "图像生成",
+        "GIF",
+        "开发者工具"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-04",
+      "retrieved_at": "2026-11-05T11:03:24Z",
+      "edition": "evening"
+    },
+    {
+      "id": "pierre-acquisition",
+      "date": "2026-11-05",
+      "title": "OpenAI 拟收购 Pierre，将代码存储与评审工具带入 Codex",
+      "summary": "OpenAI 宣布将收购 Pierre Computer Company。Codex 已使用其 Trees 和 Diffs 库，后续计划整合 Code Storage 的功能。公告称开源项目将继续开放，交易仍需满足惯例交割条件及监管批准。",
+      "detail": "原文发布日期 2026-11-04。读取官方公告正文，核对已使用的组件、整合计划和交割条件。收购按拟议交易表述。\n\n为什么值得关注？智能体生成代码之后，文件导航、评审和版本存储也需要处理更大的代码变更量，这笔交易扩展了 Codex 周边的工程工具。",
+      "url": "https://openai.com/index/openai-to-acquire-pierre/",
+      "source": "OpenAI",
+      "category": "funding",
+      "tags": [
+        "Codex",
+        "代码评审",
+        "收购"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-04",
+      "retrieved_at": "2026-11-05T11:03:24Z",
+      "edition": "evening"
+    },
+    {
+      "id": "claude-vault-particles",
+      "date": "2026-11-05",
+      "title": "Anthropic 披露 Claude 辅助解析原核来源 vault 颗粒结构",
+      "summary": "Anthropic 生物实验室报告，团队用 Claude 辅助筛选蛋白候选、设计表达构建体、优化分离流程并执行冷冻电镜分析。团队在大肠杆菌中表达候选后，确认四种蛋白可形成 vault 形状，并解析了噬菌体来源 L05 的结构。",
+      "detail": "原文发布日期 2026-11-04。读取研究公告中发现、实验过程与局限章节，未读预印本全文。结果为公司实验室报告。天然宿主内是否形成颗粒及其功能仍待验证，电镜计算使用了内部多 GPU 资源。\n\n为什么值得关注？公告把模型参与的分析步骤和人类实验决策对应起来，也披露了错误协议与错误图谱造成的返工，便于评估科研助手的实际分工。",
+      "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
+      "source": "Anthropic",
+      "category": "research_paper",
+      "tags": [
+        "结构生物学",
+        "科学发现",
+        "冷冻电镜"
+      ],
+      "heat": 5,
+      "published_at": "2026-11-04",
+      "retrieved_at": "2026-11-05T11:03:24Z",
+      "edition": "evening"
+    },
+    {
+      "id": "linux-vulnerability-pipeline",
+      "date": "2026-11-05",
+      "title": "OpenAI 报告自动化 Linux 漏洞发现与候选补丁流水线",
+      "summary": "OpenAI 称，在十月中旬的一次受控内核扫描中，流水线动态复现了 1,724 个漏洞，并产生 948 个本地提权利用及候选补丁。流程包括发现、复现、可利用性评估、补丁生成及人工审核，API 成本约 120 万美元。",
+      "detail": "原文发布日期 2026-11-04。读取官方报告的扫描范围、流水线、成本与补丁状态章节，并交叉查看独立报道。数字均为 OpenAI 自报，未找到独立核验全量计数的证据。候选补丁仍需维护者审核合并。\n\n为什么值得关注？当候选数量增长时，维护者仍需完成优先级判断和补丁审核。报告展示了将复现证据与补丁一起交付的流程。",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+      "source": "OpenAI",
+      "category": "research_paper",
+      "tags": [
+        "网络安全",
+        "Linux",
+        "自动化修复"
+      ],
+      "heat": 5,
+      "published_at": "2026-11-04",
+      "retrieved_at": "2026-11-05T11:03:24Z",
+      "edition": "evening"
+    },
+    {
+      "id": "google-health-evaluation",
+      "date": "2026-11-05",
+      "title": "Google 公布结合基准、模型评分与专家审查的健康 AI 评估框架",
+      "summary": "Google 介绍一套围绕准确性、安全性与有用性展开的评估方法，将封闭题基准、模型自动评分和专家审查结合，并按基础模型、产品开发和上线后监测划分评估阶段。",
+      "detail": "原文发布日期 2026-11-04。读取 11 月 4 日官方说明，论文仅阅读 arXiv 摘要及版本记录，未读全文。论文初稿 11 月 3 日提交、11 月 4 日更新。本条报道评估方法，未提供临床有效性结论。\n\n为什么值得关注？医疗场景中的答案质量涉及任务与使用环境，框架让采购和开发团队能明确每个阶段需要补充哪类评估证据。",
+      "url": "https://blog.google/innovation-and-ai/technology/health/evaluating-health-ai-at-scale/",
+      "source": "Google Health",
+      "category": "research_paper",
+      "tags": [
+        "健康AI",
+        "模型评估",
+        "科研方法"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-04",
+      "retrieved_at": "2026-11-05T11:03:24Z",
+      "edition": "evening"
+    },
+    {
+      "id": "corde-disclosure",
+      "date": "2026-11-05",
+      "title": "CORDE 为机密 AI 的对外数据披露建立可核查日志",
+      "summary": "研究提出让用户衍生数据默认留在机密虚拟机中，需要对外发送时，先记录具体内容、接收方和理由。系统结合 Rust 信息流约束、可信执行环境账本和远程证明。作者在 H100 的 AppWorld 测试中报告约 0.5% 任务延迟开销。",
+      "detail": "原文发布日期 2026-11-04。近期精选补充。读取 arXiv v1 摘要、系统设计引言和安全验证段落。约 0.5% 限于作者所测 H100 与 AppWorld 配置，功能测试尚不构成形式化安全证明。\n\n为什么值得关注？智能体调用外部服务时可能带出用户信息。将披露内容与调用对应，可为用户事后检查提供记录。",
+      "url": "https://arxiv.org/abs/2611.05971",
+      "source": "arXiv · Shiina 等",
+      "category": "research_paper",
+      "tags": [
+        "隐私",
+        "机密计算",
+        "智能体"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-04T05:05:43Z",
+      "retrieved_at": "2026-11-05T11:03:24Z",
+      "edition": "evening"
+    },
+    {
+      "id": "eu-ai-act-qa-benchmark",
+      "date": "2026-11-05",
+      "title": "研究开放 110 道欧盟 AI 法案问答基准及评测代码",
+      "summary": "研究者用 110 道开放题测试五个专用法规助手和三个通用基线，同时评估正确性、引用、表达和延迟，并设置模拟用户反驳的多轮模式。作者报告，仅两个参赛专用助手持续优于基线。",
+      "detail": "原文发布日期 2026-11-03。近期精选补充。读取论文摘要、引言与基准范围，并打开作者代码仓库。基准按 2026 年 5 月 1 日的法规状态解释，后续修订不在评测范围内。结果来自论文所述参赛系统。\n\n为什么值得关注？可公开运行的逐题标准便于检查法规问答系统是否给出正确条款，以及在用户质疑后能否保持可靠判断。",
+      "url": "https://arxiv.org/abs/2611.04546",
+      "source": "arXiv · Virgolin 等",
+      "category": "research_paper",
+      "tags": [
+        "可复现评测",
+        "法规问答",
+        "开放数据"
+      ],
+      "heat": 3,
+      "published_at": "2026-11-03T09:12:05Z",
+      "retrieved_at": "2026-11-05T11:03:24Z",
+      "edition": "evening"
+    },
+    {
+      "id": "embodied-science-evidence-review",
+      "date": "2026-11-05",
+      "title": "具身科研综述提出分别检查动作、实验与科学主张",
+      "summary": "一篇综述将具身科研系统分为操作、知识更新和证据三个层次，强调记录实验实际执行条件、观测与后续确认之间的联系。摘要介绍了覆盖 28 个工作流的证据图谱，以及对有效实验和已确认主张分别评估的建议。",
+      "detail": "原文发布日期 2026-11-03。近期精选补充。仅读取 arXiv v1 摘要和提交记录，未阅读全文及附录。本文是综述与评价方法提案。\n\n为什么值得关注？自动化实验的成功率需要追溯到样品、仪器状态和测量记录，这套分类为复核科研智能体提供了检查维度。",
+      "url": "https://arxiv.org/abs/2611.04371",
+      "source": "arXiv · Xu 等",
+      "category": "research_paper",
+      "tags": [
+        "具身科研",
+        "研究精选",
+        "科学复现"
+      ],
+      "heat": 3,
+      "published_at": "2026-11-03T05:59:43Z",
+      "retrieved_at": "2026-11-05T11:03:24Z",
+      "edition": "evening"
+    }
+  ],
+  "total_count": 20,
+  "categories": {
+    "product_release": 3,
+    "research_paper": 9,
+    "opensource": 2,
+    "funding": 5,
+    "regulation": 1,
+    "community_hot": 0
+  }
+};

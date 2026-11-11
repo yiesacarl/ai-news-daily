@@ -1,0 +1,443 @@
+window.NEWS_DATA = window.NEWS_DATA || {};
+window.NEWS_DATA["2026-11-06"] = {
+  "date": "2026-11-06",
+  "generated_at": "2026-11-05T23:03:06Z",
+  "updated_at": "2026-11-06T11:03:51.438Z",
+  "collection_method": "independent_web_research",
+  "search_count": 57,
+  "editions": {
+    "morning": {
+      "item_ids": [
+        "gpt6-cyber-launch",
+        "metr-anthropic-acceleration",
+        "plamo3-translate-openweights",
+        "gemini-omni12flash-video",
+        "enzymersi-dual-loop",
+        "trial-simulator-interventionblind",
+        "glasswing-disclosures-study",
+        "kalepa-seriesb",
+        "cmu-nfl-foundationmodels",
+        "fabaid-nebraska-cybersecurity"
+      ],
+      "generated_at": "2026-11-05T23:03:06Z",
+      "collection_window": {
+        "start": "2026-11-02T23:00:41Z",
+        "end": "2026-11-05T23:00:41Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "search_count": 21
+    },
+    "evening": {
+      "item_ids": [
+        "inkling-2-small",
+        "mnn-pocket-03b",
+        "structrfm-nature",
+        "tcsexam",
+        "scientists-use-claude",
+        "potential-sciences-sovereign",
+        "serve-physical-ai-services",
+        "openai-community-compact",
+        "clear-wsi",
+        "artividrm"
+      ],
+      "generated_at": "2026-11-06T11:03:49Z",
+      "collection_window": {
+        "start": "2026-11-03T11:03:49.000Z",
+        "end": "2026-11-06T11:03:49Z",
+        "timezone": "Asia/Shanghai"
+      },
+      "search_count": 36
+    }
+  },
+  "items": [
+    {
+      "id": "gpt6-cyber-launch",
+      "date": "2026-11-06",
+      "title": "OpenAI 发布 GPT-6 Cyber，并公布授权范围评估",
+      "summary": "OpenAI 推出面向授权安全研究的 GPT-6 Cyber。官方报告其 ExploitGym 成绩为 48.5%，此前 GPT-5.6 Cyber 为 32.1%，并将其网络安全能力评为 Critical。",
+      "detail": "原文发布日期为 2026-11-05。读取发布公告、系统卡概述与范围评估段落，并与路透社交叉核验。分数来自官方测试，Critical 是 OpenAI 自身准备度框架的能力分类。此次模型发布与此前漏洞流水线报告分别处理。\n\n为什么值得关注？模型能力与权限边界需要同时评估。此次发布同时给出了漏洞利用表现和范围遵守测试，便于防御团队审查部署条件。",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+      "source": "OpenAI",
+      "category": "product_release",
+      "tags": [
+        "网络安全",
+        "模型发布",
+        "授权测试"
+      ],
+      "heat": 5,
+      "published_at": "2026-11-05",
+      "retrieved_at": "2026-11-05T23:03:06Z",
+      "edition": "morning"
+    },
+    {
+      "id": "metr-anthropic-acceleration",
+      "date": "2026-11-06",
+      "title": "METR 独立评估 Anthropic 的 AI 研发加速，强调估计不确定性",
+      "summary": "METR 在取得内部研发资料后估计，Anthropic 在定义明确任务上的模型进步速度，可能约为历史时期的两倍。报告也指出基准选择、时间滞后和更广泛任务的解释均存在不确定性。",
+      "detail": "原文发布日期为 2026-11-05。读取执行摘要、主要结论与基准及员工自述的限制。评估于 8 月 12 日至 10 月 29 日开展，11 月 5 日发表。约两倍为综合判断，团队认为 1.3 倍或 3 倍也并不意外。\n\n为什么值得关注？这份评估把研发加速从员工自述扩展到内部指标、算法效率和训练流程证据，有助于区分不同测量口径。",
+      "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+      "source": "METR",
+      "category": "research_paper",
+      "tags": [
+        "研发加速",
+        "独立评估",
+        "能力测量"
+      ],
+      "heat": 5,
+      "published_at": "2026-11-05",
+      "retrieved_at": "2026-11-05T23:03:06Z",
+      "edition": "morning"
+    },
+    {
+      "id": "plamo3-translate-openweights",
+      "date": "2026-11-06",
+      "title": "PLaMo 3 Translate 开放四种规模权重，支持设备端翻译",
+      "summary": "Preferred Networks 发布 0.8B、2B、8B 和 31B 四种翻译模型权重，支持包括日语和英语在内的 53 种语言。官方展示了最小模型在飞行模式手机上的运行演示。",
+      "detail": "原文发布日期为 2026-11-05。读取 PFN 公告的模型规模、部署和许可段落及 Hugging Face 模型卡。适用 PLaMo Community License，公告说明个人及最近财年年营收不超过 10 亿日元的企业可免费使用。性能比较属于厂商评测。\n\n为什么值得关注？从小模型到服务器版本的选择，便于对敏感文档、离线场景和设备延迟做实际测试。",
+      "url": "https://www.preferred.jp/en/news/pr20261105",
+      "source": "Preferred Networks",
+      "category": "opensource",
+      "tags": [
+        "开放权重",
+        "离线翻译",
+        "端侧AI"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-05",
+      "retrieved_at": "2026-11-05T23:03:06Z",
+      "edition": "morning"
+    },
+    {
+      "id": "gemini-omni12flash-video",
+      "date": "2026-11-06",
+      "title": "Gemini Omni 1.2 Flash 增加 15 秒视频与多轮编辑",
+      "summary": "Google 宣布 Gemini Omni 1.2 Flash 正式可用，增加原生 15 秒视频生成、参考内容遵循和多轮对话编辑。公告给出的 720p 价格为每秒 0.07 美元。",
+      "detail": "原文发布日期为 2026-11-05。读取 Google 官方公告正文的可用性、视频能力和定价段落。相对 1.1 降价 30% 为厂商口径，所述每秒价格针对 720p，其他配置需另行核对。\n\n为什么值得关注？片段时长与连续编辑会直接影响制作流程，开发者可结合所需分辨率和片长核算一次生成的费用。",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "source": "Google",
+      "category": "product_release",
+      "tags": [
+        "视频生成",
+        "Gemini",
+        "开发工具"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-05",
+      "retrieved_at": "2026-11-05T23:03:06Z",
+      "edition": "morning"
+    },
+    {
+      "id": "enzymersi-dual-loop",
+      "date": "2026-11-06",
+      "title": "EnzymeRSI 研究用双循环调整酶设计方法与工作流",
+      "summary": "EnzymeRSI 将研究流程改进与预测、候选选择算法迭代分成两层。作者还报告了三组前瞻性湿实验，包括荧光素酶候选与修饰底物上的聚合酶测试。",
+      "detail": "原文发布日期为 2026-11-04。近期精选补充。仅读取 arXiv v1 摘要和提交记录，未阅读全文。作者报告 RLuc 实验中 32 个未预先指定候选有 10 个达到至少两倍野生型活性。结果限于摘要所述实验，属于预印本报告。\n\n为什么值得关注？把候选筛选与方法本身的改进分别记录，有助于检验性能提升究竟来自哪个环节。",
+      "url": "https://arxiv.org/abs/2611.06321",
+      "source": "arXiv／EnzymeRSI 作者",
+      "category": "research_paper",
+      "tags": [
+        "酶设计",
+        "科学智能体",
+        "湿实验"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-04T10:54:35Z",
+      "retrieved_at": "2026-11-05T23:03:06Z",
+      "edition": "morning"
+    },
+    {
+      "id": "trial-simulator-interventionblind",
+      "date": "2026-11-06",
+      "title": "临床试验模拟研究用隐藏干预信息检验模型是否理解药物",
+      "summary": "研究以 7207 项注册试验构建 9996 个试验内对照，比较同一模拟器在保留和隐藏干预信息时的误差，测量预测能力是否真正依赖治疗信息。",
+      "detail": "原文发布日期为 2026-11-04。近期精选补充。仅读取 arXiv v1 摘要及提交记录。时间切分测试包含 655 项试验的 878 个对照；作者发现其中的梯度提升基线隐藏干预后反而更好。论文称公开基准、代码和调用输出，未在本次执行复现。\n\n为什么值得关注？在医疗模拟中，预测相关性不足以证明模型能评估干预。该评测为检查这一差别提供了可复用设计。",
+      "url": "https://arxiv.org/abs/2611.05907",
+      "source": "arXiv／Alicem Koyun",
+      "category": "research_paper",
+      "tags": [
+        "临床试验",
+        "因果评测",
+        "可复现基准"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-04T03:59:15Z",
+      "retrieved_at": "2026-11-05T23:03:06Z",
+      "edition": "morning"
+    },
+    {
+      "id": "glasswing-disclosures-study",
+      "date": "2026-11-06",
+      "title": "研究利用漏洞披露数据评估前沿 AI 对防御方的影响",
+      "summary": "一项预印本比较获得 Project Glasswing 早期访问的企业与其他企业，报告前者公开披露的漏洞增加，高影响漏洞也更多，而修复速度未明显降低。",
+      "detail": "原文发布日期为 2026-11-04。近期精选补充。仅读取 arXiv 摘要和提交记录。文中披露倍增、攻击比例下降等均为作者基于观察数据的估计；企业分组和受限访问会影响结果解释。未阅读全文或独立复现。\n\n为什么值得关注？研究把模型能力问题延伸到公开漏洞生态和研究人员行为，提供了检查防御收益的外部数据角度。",
+      "url": "https://arxiv.org/abs/2611.06629",
+      "source": "arXiv／Thomas Mosk",
+      "category": "research_paper",
+      "tags": [
+        "安全评估",
+        "漏洞披露",
+        "观察研究"
+      ],
+      "heat": 3,
+      "published_at": "2026-11-04T15:12:30Z",
+      "retrieved_at": "2026-11-05T23:03:06Z",
+      "edition": "morning"
+    },
+    {
+      "id": "kalepa-seriesb",
+      "date": "2026-11-06",
+      "title": "Kalepa 获 7500 万美元 B 轮，扩展保险 AI 工作流",
+      "summary": "保险 AI 公司 Kalepa 宣布按 4.7 亿美元估值完成 7500 万美元 B 轮融资，由 Updata Partners 领投。公司计划扩展产品和市场，并于 2027 年扩大团队。",
+      "detail": "原文发布日期为 2026-11-05。读取公司公告的资金、领投方及用途段落，并与路透社交叉核验。融资与估值为公司披露，营收与客户效率表述没有作为独立验证的效果指标引用。\n\n为什么值得关注？承保、定价与组合管理依赖大量文档和风险数据，这笔融资反映了面向专业流程的 AI 产品投资方向。",
+      "url": "https://kalepa.com/news-posts/kalepa-raises-75-million-series-b",
+      "source": "Kalepa",
+      "category": "funding",
+      "tags": [
+        "保险科技",
+        "企业AI",
+        "融资"
+      ],
+      "heat": 3,
+      "published_at": "2026-11-05",
+      "retrieved_at": "2026-11-05T23:03:06Z",
+      "edition": "morning"
+    },
+    {
+      "id": "cmu-nfl-foundationmodels",
+      "date": "2026-11-06",
+      "title": "CMU 获 NFL 影像与追踪数据，研究多模态比赛理解",
+      "summary": "卡内基梅隆大学公布与 NFL 的研究合作。团队利用比赛影片和球员追踪数据分别训练初步系统，后续计划研究两类数据融合及战术预测。",
+      "detail": "原文发布日期为 2026-11-05。读取 CMU 校方报道正文。11 月 5 日为报道日期，合作起始日未明确。当前成果为分别处理影片和轨迹的预训练系统，融合与预测仍属于研究方向。\n\n为什么值得关注？将视频与结构化轨迹对齐，是体育分析之外也常见的多模态问题。报道明确区分了已完成的基础系统和未来目标。",
+      "url": "https://www.cmu.edu/news/stories/archives/2026/november/cmu-researchers-teach-football-to-ai-models",
+      "source": "Carnegie Mellon University",
+      "category": "research_paper",
+      "tags": [
+        "多模态",
+        "体育分析",
+        "基础模型"
+      ],
+      "heat": 3,
+      "published_at": "2026-11-05",
+      "retrieved_at": "2026-11-05T23:03:06Z",
+      "edition": "morning"
+    },
+    {
+      "id": "fabaid-nebraska-cybersecurity",
+      "date": "2026-11-06",
+      "title": "内布拉斯加大学公布 AI 科研数据网络的安全与运维职责",
+      "summary": "内布拉斯加大学林肯分校介绍其在 Fabric for AI-Driven Science 项目中的职责，将负责网络安全并参与分布式服务运维。项目旨在连接科研数据、计算资源和 AI 服务。",
+      "detail": "原文发布日期为 2026-11-05。读取校方公告中的项目概述、安全和运维职责。11 月 5 日为本次职责报道日期，五年 2450 万美元为整体项目规模，原文提及的 NSF 总投资涵盖更大范围项目。\n\n为什么值得关注？跨机构科学计算需要可信的数据流转。安全与持续运维职责的明确，比单独增加模型接口更接近研究平台的基础需求。",
+      "url": "https://news.unl.edu/article/university-to-lead-cybersecurity-for-national-fabric-for-ai-driven-science-project",
+      "source": "University of Nebraska–Lincoln",
+      "category": "community_hot",
+      "tags": [
+        "科研基础设施",
+        "数据共享",
+        "网络安全"
+      ],
+      "heat": 3,
+      "published_at": "2026-11-05",
+      "retrieved_at": "2026-11-05T23:03:06Z",
+      "edition": "morning"
+    },
+    {
+      "id": "inkling-2-small",
+      "date": "2026-11-06",
+      "title": "Thinking Machines 发布 Inkling 2 Small，先通过 Tinker 提供服务",
+      "summary": "Inkling 2 Small 是总参数 594B、激活参数 17B 的 MoE 模型，支持图像输入和可调推理强度。用户已可在 Tinker 上试用、微调和采样。团队计划在完成外部安全测试后，于下一周以 Apache 2.0 许可开放完整权重。",
+      "detail": "原文发布日期 2026-11-05。读取官方发布文的模型规格、训练方法、可用范围与开放计划。当前提供托管访问，开放权重为后续计划。\n\n为什么值得关注？图像反馈和微调接口可用于构建特定工作流。权重开放时间则决定团队何时能独立部署与复现。",
+      "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+      "source": "Thinking Machines Lab",
+      "category": "product_release",
+      "tags": [
+        "多模态",
+        "模型微调",
+        "Tinker"
+      ],
+      "heat": 5,
+      "published_at": "2026-11-05",
+      "retrieved_at": "2026-11-06T11:03:32Z",
+      "edition": "evening"
+    },
+    {
+      "id": "mnn-pocket-03b",
+      "date": "2026-11-06",
+      "title": "MNN-Pocket-0.3B 开放端侧部署版本，INT4 包约 173 MB",
+      "summary": "阿里 MNN 团队发布面向手机应用的约 300M 参数中英文模型，支持 32K 上下文，采用 Apache 2.0 许可。官方仓库说明，W4A16 量化感知训练版本约 173 MB，在 iPhone 18 Pro 的测试中解码吞吐为 350 token/s。",
+      "detail": "原文发布日期 2026-11-04。近期精选补充。读取官方 README 的 11 月 4 日发布记录与部署说明。媒体于 11 月 6 日报道，按仓库原日期记录。速度为指定设备上的厂商测试，未读取技术报告全文或实际运行模型。\n\n为什么值得关注？模型、量化版本和推理引擎一起提供，便于开发者在手机的内存、延迟及业务任务约束下做离线适配。",
+      "url": "https://github.com/alibaba/MNN",
+      "source": "阿里巴巴 MNN 团队",
+      "category": "opensource",
+      "tags": [
+        "端侧AI",
+        "轻量模型",
+        "开源"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-04",
+      "retrieved_at": "2026-11-06T11:03:32Z",
+      "edition": "evening"
+    },
+    {
+      "id": "structrfm-nature",
+      "date": "2026-11-06",
+      "title": "中国科大公布 structRFM RNA 基础模型，开放数据、权重与代码",
+      "summary": "中国科大团队将结构知识融入 RNA 序列学习，使用约 2,100 万条经计算注释的序列与二级结构配对数据进行预训练。模型可提取序列、核苷酸及核苷酸对特征，用于结构预测和功能推断。相关成果发表于《自然》。",
+      "detail": "原文发布日期 2026-11-05。读取 11 月 5 日署名中国科大的中科院研究公告和作者仓库的概述、资源与使用入口。《自然》原文无法访问，未阅读全文。论文页面标注 11 月 4 日发表，本条日期对应机构公告。\n\n为什么值得关注？完整训练配对数据与模型资源为复现实验提供了入口，也便于比较结构信息对不同 RNA 任务的贡献。",
+      "url": "https://www.cas.cn/syky/202611/t20261105_5123509.shtml",
+      "source": "中国科学技术大学／中国科学院",
+      "category": "research_paper",
+      "tags": [
+        "RNA",
+        "科学发现",
+        "开放数据"
+      ],
+      "heat": 5,
+      "published_at": "2026-11-05",
+      "retrieved_at": "2026-11-06T11:03:32Z",
+      "edition": "evening"
+    },
+    {
+      "id": "tcsexam",
+      "date": "2026-11-06",
+      "title": "TCSExam 开放 100 项可验证的理论计算机科学研究任务",
+      "summary": "TCSExam 覆盖定理证明、求解器工程、数学构造和开放猜想。Full 套件含 100 项专家审核任务，Lite 含 20 项，提交结果由 Lean 内核或可执行检查器验证。作者同时开放任务来源、Docker 构建配方和评测工具。",
+      "detail": "原文发布日期 2026-11-05。仅读取 arXiv v1 摘要和提交记录，并读取官方仓库的任务结构、运行入口与评分说明，未读论文全文。不同套件的榜首分数对应不同任务集合，本文不作横向换算。\n\n为什么值得关注？按任务产物验证结果，有助于区分可复核的研究进展与文字上合理的回答，Lite 也降低了初次评测的任务数量。",
+      "url": "https://arxiv.org/abs/2611.07962",
+      "source": "arXiv／MoonshotAI TCSExam 作者",
+      "category": "research_paper",
+      "tags": [
+        "理论计算机科学",
+        "可复现评测",
+        "Lean"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-05T12:58:43Z",
+      "retrieved_at": "2026-11-06T11:03:32Z",
+      "edition": "evening"
+    },
+    {
+      "id": "scientists-use-claude",
+      "date": "2026-11-06",
+      "title": "Anthropic 分析 20.7 万次科研会话，发现使用集中于数据分析和写作",
+      "summary": "Anthropic 用隐私保护方法分析 207,000 次 Claude 与 Claude Code 科研会话，并调查 528 名科研人员。数据分析约占 Claude 会话的三分之一、Claude Code 会话的近一半；构思与物理数据采集的使用占比较低。",
+      "detail": "原文发布日期 2026-11-05。读取报告摘要、任务使用分布与调查说明。样本来自 Claude 用户，调查对象为积极使用 AI 的研究者。研究产出倍增等数字来自情景模型，本文只概括观察到的使用分布。\n\n为什么值得关注？分析将科研任务拆开观察，显示已有工具更常用于数字化工作，实验采集等环节仍可能约束整体科研流程。",
+      "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+      "source": "Anthropic",
+      "category": "research_paper",
+      "tags": [
+        "AI for Science",
+        "科研工作流",
+        "使用研究"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-05",
+      "retrieved_at": "2026-11-06T11:03:32Z",
+      "edition": "evening"
+    },
+    {
+      "id": "potential-sciences-sovereign",
+      "date": "2026-11-06",
+      "title": "英国 Sovereign AI 为 Potential Sciences 提供投资与算力支持",
+      "summary": "英国政府宣布支持 Potential Sciences，参与其八位数规模融资并提供算力获取支持。公司计划以适配 GPU 的物理模拟生成分子相互作用数据，训练用于化学和药物设计的 AI。",
+      "detail": "原文发布日期 2026-11-05。读取政府公告的投资、算力与技术路线说明。公告披露八位数融资规模，政府单独投资金额未列明。成本改善与药物发现收益仍属公司及政府预期。\n\n为什么值得关注？模拟数据可能补充实验数据的覆盖范围，政府把投资与算力结合的方式也会影响科研型初创公司的资源条件。",
+      "url": "https://www.gov.uk/government/news/sovereign-ai-puts-cash-and-compute-behind-uk-startup-using-ai-to-redefine-chemistry",
+      "source": "英国政府",
+      "category": "funding",
+      "tags": [
+        "AI制药",
+        "科研算力",
+        "融资"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-05",
+      "retrieved_at": "2026-11-06T11:03:32Z",
+      "edition": "evening"
+    },
+    {
+      "id": "serve-physical-ai-services",
+      "date": "2026-11-06",
+      "title": "Serve Robotics 将连接、数据筛选与训练数据服务对外提供",
+      "summary": "Serve 推出 Physical AI Services，包含连接机器人与云端模型的 Serve Link、筛选车队关键数据的 Data Curator，以及来自人行道部署的现实环境数据目录。公告列出 Bedrock Robotics 为首批客户。",
+      "detail": "原文发布日期 2026-11-05。读取官方公告正文及三项服务说明。覆盖范围和客户情况为公司公告所述，未进行服务性能测试。\n\n为什么值得关注？机器人团队可以评估复用连接和数据处理服务的可行性，把更多工程资源放在自身任务与机体上。",
+      "url": "https://serverobotics.gcs-web.com/news-releases/news-release-details/serve-robotics-launches-physical-ai-services-opening-technology",
+      "source": "Serve Robotics",
+      "category": "product_release",
+      "tags": [
+        "机器人",
+        "数据基础设施",
+        "物理AI"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-05",
+      "retrieved_at": "2026-11-06T11:03:32Z",
+      "edition": "evening"
+    },
+    {
+      "id": "openai-community-compact",
+      "date": "2026-11-06",
+      "title": "OpenAI 发布数据中心社区承诺，将公开能耗、水耗和噪声信息",
+      "summary": "OpenAI 公布 National Community Compact，承诺为未来自有自营园区制定本地协议，承担新增用电及基础设施成本，公开水电使用和建设计划，并发布独立噪声研究。与公职人员的保密约定将收窄至特定敏感信息。",
+      "detail": "原文发布日期 2026-11-05。读取官方社区承诺和政策蓝图说明，并与路透社 11 月 5 日报道交叉核验。适用范围为未来 OpenAI 自有自营园区，政策蓝图中的建议仍待立法或监管采纳。\n\n为什么值得关注？这些公开事项让社区有具体依据检查园区建设与运营对资源、费用和就业的影响，后续年度报告将是检验承诺的材料。",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/",
+      "source": "OpenAI",
+      "category": "regulation",
+      "tags": [
+        "数据中心",
+        "透明度",
+        "能源"
+      ],
+      "heat": 4,
+      "published_at": "2026-11-05",
+      "retrieved_at": "2026-11-06T11:03:32Z",
+      "edition": "evening"
+    },
+    {
+      "id": "clear-wsi",
+      "date": "2026-11-06",
+      "title": "CLEAR-WSI 用固定长度表示检索病理全切片图像",
+      "summary": "研究提出将病理切片聚合为固定长度向量，再用诊断预测筛选相似病例，并让处理过的病例进入可增长检索库。实验覆盖两个公开数据集与一个私有临床数据集，共四项检索任务。",
+      "detail": "原文发布日期 2026-11-05。读取 arXiv v1 摘要及正文检索方法、标签过滤和实验设置。论文将已知真实诊断标签的 CI 配置单列为 oracle，自动 SR 配置使用预测标签。结果限于所测数据集。\n\n为什么值得关注？固定长度表示和逐步扩展的病例库为大规模影像档案检索提供了设计方案，诊断标签是否可得也能被单独评估。",
+      "url": "https://arxiv.org/abs/2611.07935",
+      "source": "arXiv／Liu 等",
+      "category": "research_paper",
+      "tags": [
+        "数字病理",
+        "图像检索",
+        "医学AI"
+      ],
+      "heat": 3,
+      "published_at": "2026-11-05T12:38:23Z",
+      "retrieved_at": "2026-11-06T11:03:32Z",
+      "edition": "evening"
+    },
+    {
+      "id": "artividrm",
+      "date": "2026-11-06",
+      "title": "ArtiVidRM 先列可见生成缺陷，再对视频质量打分",
+      "summary": "ArtiVidRM 将视频中的可见生成缺陷组织成结构化列表，再以列表作为质量评分依据。训练同时优化缺陷预测和视频偏好排序，作者报告该方法可用于视频生成优化及缺陷引导的结果改进。",
+      "detail": "原文发布日期 2026-11-05。近期精选补充。仅读取 arXiv v1 摘要和提交记录，未阅读全文或复现实验。性能提升为作者在论文所测偏好基准和生成设置下的报告。\n\n为什么值得关注？缺陷列表把评分与视频证据对应起来，可帮助开发者定位模型需要修正的具体表现，并检查奖励信号。",
+      "url": "https://arxiv.org/abs/2611.07301",
+      "source": "arXiv／Li 等",
+      "category": "research_paper",
+      "tags": [
+        "视频生成",
+        "奖励模型",
+        "可解释评测"
+      ],
+      "heat": 3,
+      "published_at": "2026-11-05T01:37:25Z",
+      "retrieved_at": "2026-11-06T11:03:32Z",
+      "edition": "evening"
+    }
+  ],
+  "total_count": 20,
+  "categories": {
+    "product_release": 4,
+    "research_paper": 10,
+    "opensource": 2,
+    "funding": 2,
+    "regulation": 1,
+    "community_hot": 1
+  }
+};
